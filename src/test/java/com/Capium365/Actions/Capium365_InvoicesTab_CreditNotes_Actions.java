@@ -423,9 +423,9 @@ public class Capium365_InvoicesTab_CreditNotes_Actions {
 		String expected = invoiceId;
 
 		if (actualText.equals(expected)) {
-			System.out.println("✅ 'Add New Invoice' id verified");
+			System.out.println("'Add New Invoice' id verified");
 		} else {
-			System.out.println("❌ Text not matched. Actual: " + actualText);
+			System.out.println("Text not matched. Actual: " + actualText);
 		}
 	}
 
@@ -448,9 +448,9 @@ public class Capium365_InvoicesTab_CreditNotes_Actions {
 		String expected = invoiceId;
 
 		if (actualText.equals(expected)) {
-			System.out.println("✅ 'Add New Invoice' id verified");
+			System.out.println("'Add New Invoice' id verified");
 		} else {
-			System.out.println("❌ Text not matched. Actual: " + actualText);
+			System.out.println("Text not matched. Actual: " + actualText);
 		}
 	}
 
@@ -474,9 +474,9 @@ public class Capium365_InvoicesTab_CreditNotes_Actions {
 		String expected = "Add New Invoice Credit Note";
 
 		if (actualText.equals(expected)) {
-			System.out.println("✅ 'Add New Invoice' id verified");
+			System.out.println("'Add New Invoice' id verified");
 		} else {
-			System.out.println("❌ Text not matched. Actual: " + actualText);
+			System.out.println("Text not matched. Actual: " + actualText);
 		}
 	}
 
@@ -545,9 +545,9 @@ public class Capium365_InvoicesTab_CreditNotes_Actions {
 		String expected = "14835";
 
 		if (actualText.equals(expected)) {
-			System.out.println("✅ 'Invoice credit note' id verified");
+			System.out.println("'Invoice credit note' id verified");
 		} else {
-			System.out.println("❌ Text not matched. Actual: " + actualText);
+			System.out.println("Text not matched. Actual: " + actualText);
 		}
 
 	}
