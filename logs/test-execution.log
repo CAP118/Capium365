@@ -1,0 +1,861 @@
+2025-08-25 21:37:50       Driver setup successfully                                                                        
+2025-08-25 21:37:51       Scenario:Validate Invoice dashboard chart for 'Time Filter'                                      
+2025-08-25 21:37:51       Launch browser successfully.                                           user            Browser Launching
+2025-08-25 21:37:51       Captured screenshot for passed step: Launch the browser                                          
+2025-08-25 21:37:56       User need to enter the Application Url                                 user            URL entered successfully.
+2025-08-25 21:37:56       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-08-25 21:38:04       Click on Capium365 Client login                                        user            Click     
+2025-08-25 21:38:05       Captured screenshot for passed step: Click on Capium365 Client login                             
+2025-08-25 21:38:05       Username and Password entered successfully.                            user            Credentials
+2025-08-25 21:38:05       Captured screenshot for passed step: User Enter username and Password                            
+2025-08-25 21:38:09       User Click on next button                                              user            Button    
+2025-08-25 21:38:09       Captured screenshot for passed step: User Click on login button                                  
+2025-08-25 21:38:09       OTP enterned sucessfully                                               user            OTP       
+2025-08-25 21:38:09       Captured screenshot for passed step: User enter OTP                                              
+2025-08-25 21:38:24       Login button clicked sucessfully                                       user            Verifying 
+2025-08-25 21:38:24       Captured screenshot for passed step: Click on verify account                                     
+2025-08-25 21:38:34       Redirected to Capium365 homepage sucessfully                           user            Redirection
+2025-08-25 21:38:35       Successfully captured screenshot: Redirect to365 client                                          
+2025-08-25 21:38:35       Captured screenshot for passed step: Redirect to365 client                                       
+2025-08-25 21:38:36       the user selects This Year from the filter dropdown                    Anwar           Capium365_Dashboard
+2025-08-25 21:38:36       Captured screenshot for passed step: the user selects This Year from the filter dropdown                           
+2025-08-25 21:38:36       the dashboard metrics should be visible                                Anwar           Capium365_Dashboard
+2025-08-25 21:38:36       Captured screenshot for passed step: the dashboard metrics should be visible                           
+2025-08-25 21:38:36       Successfully captured screenshot: the chart should display month-wise labels                           
+2025-08-25 21:38:36       the chart should display month-wise labels                             Anwar           Capium365_Dashboard
+2025-08-25 21:38:36       Captured screenshot for passed step: the chart should display month-wise labels                           
+2025-08-25 21:38:38       the user selects This Month from the filter dropdown                   Anwar           Capium365_Dashboard
+2025-08-25 21:38:38       Captured screenshot for passed step: the user selects This Month from the filter dropdown                           
+2025-08-25 21:38:38       the dashboard metrics should be visible                                Anwar           Capium365_Dashboard
+2025-08-25 21:38:38       Captured screenshot for passed step: the dashboard metrics should be visible                           
+2025-08-25 21:38:38       Successfully captured screenshot: the chart should display month-wise labels                           
+2025-08-25 21:38:38       the chart should display day-wise labels                               Anwar           Capium365_Dashboard
+2025-08-25 21:38:38       Captured screenshot for passed step: the chart should display day-wise labels                           
+2025-08-25 21:38:40       the user selects This Week from the filter dropdown                    Anwar           Capium365_Dashboard
+2025-08-25 21:38:40       Captured screenshot for passed step: the user selects This Week from the filter dropdown                           
+2025-08-25 21:38:40       the dashboard metrics should be visible                                Anwar           Capium365_Dashboard
+2025-08-25 21:38:40       Captured screenshot for passed step: the dashboard metrics should be visible                           
+2025-08-25 21:38:40       Successfully captured screenshot: the chart should display month-wise labels                           
+2025-08-25 21:38:40       the chart should display day-wise labels                               Anwar           Capium365_Dashboard
+2025-08-25 21:38:40       Captured screenshot for passed step: the chart should display day-wise labels                           
+2025-08-25 21:38:41       the user selects Last Week from the filter dropdown                    Anwar           Capium365_Dashboard
+2025-08-25 21:38:42       Captured screenshot for passed step: the user selects Last Week from the filter dropdown                           
+2025-08-25 21:38:42       the dashboard metrics should be visible                                Anwar           Capium365_Dashboard
+2025-08-25 21:38:42       Captured screenshot for passed step: the dashboard metrics should be visible                           
+2025-08-25 21:38:42       Successfully captured screenshot: the chart should display month-wise labels                           
+2025-08-25 21:38:42       the chart should display day-wise labels                               Anwar           Capium365_Dashboard
+2025-08-25 21:38:42       Captured screenshot for passed step: the chart should display day-wise labels                           
+2025-08-25 21:38:43       the user selects Last Month from the filter dropdown                   Anwar           Capium365_Dashboard
+2025-08-25 21:38:44       Captured screenshot for passed step: the user selects Last Month from the filter dropdown                           
+2025-08-25 21:38:44       the dashboard metrics should be visible                                Anwar           Capium365_Dashboard
+2025-08-25 21:38:44       Captured screenshot for passed step: the dashboard metrics should be visible                           
+2025-08-25 21:38:44       Successfully captured screenshot: the chart should display month-wise labels                           
+2025-08-25 21:38:44       the chart should display day-wise labels                               Anwar           Capium365_Dashboard
+2025-08-25 21:38:44       Captured screenshot for passed step: the chart should display day-wise labels                           
+2025-08-25 21:38:45       the user selects This Quarter from the filter dropdown                 Anwar           Capium365_Dashboard
+2025-08-25 21:38:46       Captured screenshot for passed step: the user selects This Quarter from the filter dropdown                           
+2025-08-25 21:38:46       the dashboard metrics should be visible                                Anwar           Capium365_Dashboard
+2025-08-25 21:38:46       Captured screenshot for passed step: the dashboard metrics should be visible                           
+2025-08-25 21:38:46       Successfully captured screenshot: the chart should display month-wise labels                           
+2025-08-25 21:38:46       the chart should display month-wise labels                             Anwar           Capium365_Dashboard
+2025-08-25 21:38:46       Captured screenshot for passed step: the chart should display month-wise labels                           
+2025-08-25 21:38:47       the user selects Last Quarter from the filter dropdown                 Anwar           Capium365_Dashboard
+2025-08-25 21:38:47       Captured screenshot for passed step: the user selects Last Quarter from the filter dropdown                           
+2025-08-25 21:38:47       the dashboard metrics should be visible                                Anwar           Capium365_Dashboard
+2025-08-25 21:38:47       Captured screenshot for passed step: the dashboard metrics should be visible                           
+2025-08-25 21:38:47       Successfully captured screenshot: the chart should display month-wise labels                           
+2025-08-25 21:38:47       the chart should display month-wise labels                             Anwar           Capium365_Dashboard
+2025-08-25 21:38:48       Captured screenshot for passed step: the chart should display month-wise labels                           
+2025-08-25 21:38:49       the user selects Last Year from the filter dropdown                    Anwar           Capium365_Dashboard
+2025-08-25 21:38:49       Captured screenshot for passed step: the user selects Last Year from the filter dropdown                           
+2025-08-25 21:38:49       the dashboard metrics should be visible                                Anwar           Capium365_Dashboard
+2025-08-25 21:38:49       Captured screenshot for passed step: the dashboard metrics should be visible                           
+2025-08-25 21:38:49       Successfully captured screenshot: the chart should display daily labels for that month                           
+2025-08-25 21:38:49       the chart should display daily labels for that month                   Anwar           Capium365_Dashboard
+2025-08-25 21:38:49       Captured screenshot for passed step: the chart should display daily labels for that month                           
+2025-08-25 21:38:50       the user selects Custom from the filter dropdown                       Anwar           Capium365_Dashboard
+2025-08-25 21:38:50       Captured screenshot for passed step: the user selects Custom from the filter dropdown                           
+2025-08-25 21:38:51       Successfully captured screenshot: the user should be prompted to select a date range                           
+2025-08-25 21:38:51       Captured screenshot for passed step: the user should be prompted to select a date range                           
+2025-08-25 21:38:51       Successfully captured screenshot: the dashboard metrics should update after range selection                           
+2025-08-25 21:38:51       Captured screenshot for passed step: the dashboard metrics should update after range selection                           
+2025-08-25 21:38:52       the user selects This Financial Year from the filter dropdown          Anwar           Capium365_Dashboard
+2025-08-25 21:38:52       Captured screenshot for passed step: the user selects This Financial Year from the filter dropdown                           
+2025-08-25 21:38:52       the dashboard metrics should be visible                                Anwar           Capium365_Dashboard
+2025-08-25 21:38:52       Captured screenshot for passed step: the dashboard metrics should be visible                           
+2025-08-25 21:38:52       Successfully captured screenshot: the chart should display month-wise labels \(Apr to Mar)                           
+2025-08-25 21:38:52       the chart should display month-wise labels \(Apr to Mar)               Anwar           Capium365_Dashboard
+2025-08-25 21:38:52       Captured screenshot for passed step: the chart should display month-wise labels (Apr to Mar)                           
+2025-08-25 21:38:52       Scenario Passed.                                                                                 
+2025-08-25 21:38:57       Clicked 5.0 Profile Icon.                                                                        
+2025-08-25 21:38:59       Clicked 5.0 Sign Out.                                                                            
+2025-08-25 21:38:59       Successfully redirected to login page after logout.                                              
+2025-08-25 21:38:59       Successfully logged out and redirected to login page.                                            
+2025-08-25 21:38:59       Scenario:Validate Transactions dashboard chart for 'This Year'                                   
+2025-08-25 21:38:59       Launch browser successfully.                                           user            Browser Launching
+2025-08-25 21:38:59       Captured screenshot for passed step: Launch the browser                                          
+2025-08-25 21:38:59       User need to enter the Application Url                                 user            URL entered successfully.
+2025-08-25 21:38:59       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-08-25 21:39:00       Click on Capium365 Client login                                        user            Click     
+2025-08-25 21:39:00       Captured screenshot for passed step: Click on Capium365 Client login                             
+2025-08-25 21:39:00       Username and Password entered successfully.                            user            Credentials
+2025-08-25 21:39:00       Captured screenshot for passed step: User Enter username and Password                            
+2025-08-25 21:39:03       User Click on next button                                              user            Button    
+2025-08-25 21:39:04       Captured screenshot for passed step: User Click on login button                                  
+2025-08-25 21:39:04       OTP enterned sucessfully                                               user            OTP       
+2025-08-25 21:39:04       Captured screenshot for passed step: User enter OTP                                              
+2025-08-25 21:39:17       Login button clicked sucessfully                                       user            Verifying 
+2025-08-25 21:39:17       Captured screenshot for passed step: Click on verify account                                     
+2025-08-25 21:39:27       Redirected to Capium365 homepage sucessfully                           user            Redirection
+2025-08-25 21:39:27       Successfully captured screenshot: Redirect to365 client                                          
+2025-08-25 21:39:27       Captured screenshot for passed step: Redirect to365 client                                       
+2025-08-25 21:39:31       the user selects This Year from the Transactions filter dropdown       Anwar           Capium365_Dashboard
+2025-08-25 21:39:31       Captured screenshot for passed step: the user selects This Year from the Transactions filter dropdown                           
+2025-08-25 21:39:31       the dashboard metrics should be visible                                Anwar           Capium365_Dashboard
+2025-08-25 21:39:31       Captured screenshot for passed step: the dashboard metrics should be visible                           
+2025-08-25 21:39:31       Successfully captured screenshot: the chart should display month-wise labels                           
+2025-08-25 21:39:31       the chart should display month-wise labels                             Anwar           Capium365_Dashboard
+2025-08-25 21:39:31       Captured screenshot for passed step: the chart should display month-wise labels                           
+2025-08-25 21:39:35       the user selects This Month from the Transactions filter dropdown      Anwar           Capium365_Dashboard
+2025-08-25 21:39:35       Captured screenshot for passed step: the user selects This Month from the Transactions filter dropdown                           
+2025-08-25 21:39:35       the dashboard metrics should be visible                                Anwar           Capium365_Dashboard
+2025-08-25 21:39:35       Captured screenshot for passed step: the dashboard metrics should be visible                           
+2025-08-25 21:39:36       Successfully captured screenshot: the chart should display month-wise labels                           
+2025-08-25 21:39:36       the chart should display day-wise labels                               Anwar           Capium365_Dashboard
+2025-08-25 21:39:36       Captured screenshot for passed step: the chart should display day-wise labels                           
+2025-08-25 21:39:39       the user selects This Week from the Transactions filter dropdown       Anwar           Capium365_Dashboard
+2025-08-25 21:39:39       Captured screenshot for passed step: the user selects This Week from the Transactions filter dropdown                           
+2025-08-25 21:39:39       the dashboard metrics should be visible                                Anwar           Capium365_Dashboard
+2025-08-25 21:39:40       Captured screenshot for passed step: the dashboard metrics should be visible                           
+2025-08-25 21:39:40       Successfully captured screenshot: the chart should display month-wise labels                           
+2025-08-25 21:39:40       the chart should display day-wise labels                               Anwar           Capium365_Dashboard
+2025-08-25 21:39:40       Captured screenshot for passed step: the chart should display day-wise labels                           
+2025-08-25 21:39:43       the user selects Last Week from the Transactions filter dropdown       Anwar           Capium365_Dashboard
+2025-08-25 21:39:44       Captured screenshot for passed step: the user selects Last Week from the Transactions filter dropdown                           
+2025-08-25 21:39:44       the dashboard metrics should be visible                                Anwar           Capium365_Dashboard
+2025-08-25 21:39:44       Captured screenshot for passed step: the dashboard metrics should be visible                           
+2025-08-25 21:39:44       Successfully captured screenshot: the chart should display month-wise labels                           
+2025-08-25 21:39:44       the chart should display day-wise labels                               Anwar           Capium365_Dashboard
+2025-08-25 21:39:44       Captured screenshot for passed step: the chart should display day-wise labels                           
+2025-08-25 21:39:48       the user selects Last Month from the Transactions filter dropdown      Anwar           Capium365_Dashboard
+2025-08-25 21:39:48       Captured screenshot for passed step: the user selects Last Month from the Transactions filter dropdown                           
+2025-08-25 21:39:48       the dashboard metrics should be visible                                Anwar           Capium365_Dashboard
+2025-08-25 21:39:48       Captured screenshot for passed step: the dashboard metrics should be visible                           
+2025-08-25 21:39:48       Successfully captured screenshot: the chart should display month-wise labels                           
+2025-08-25 21:39:48       the chart should display day-wise labels                               Anwar           Capium365_Dashboard
+2025-08-25 21:39:48       Captured screenshot for passed step: the chart should display day-wise labels                           
+2025-08-25 21:39:52       the user selects This Quarter from the Transactions filter dropdown    Anwar           Capium365_Dashboard
+2025-08-25 21:39:52       Captured screenshot for passed step: the user selects This Quarter from the Transactions filter dropdown                           
+2025-08-25 21:39:52       the dashboard metrics should be visible                                Anwar           Capium365_Dashboard
+2025-08-25 21:39:52       Captured screenshot for passed step: the dashboard metrics should be visible                           
+2025-08-25 21:39:52       Successfully captured screenshot: the chart should display month-wise labels                           
+2025-08-25 21:39:52       the chart should display month-wise labels                             Anwar           Capium365_Dashboard
+2025-08-25 21:39:52       Captured screenshot for passed step: the chart should display month-wise labels                           
+2025-08-25 21:39:56       the user selects Last Quarter from the Transactions filter dropdown    Anwar           Capium365_Dashboard
+2025-08-25 21:39:56       Captured screenshot for passed step: the user selects Last Quarter from the Transactions filter dropdown                           
+2025-08-25 21:39:56       the dashboard metrics should be visible                                Anwar           Capium365_Dashboard
+2025-08-25 21:39:56       Captured screenshot for passed step: the dashboard metrics should be visible                           
+2025-08-25 21:39:56       Successfully captured screenshot: the chart should display month-wise labels                           
+2025-08-25 21:39:56       the chart should display month-wise labels                             Anwar           Capium365_Dashboard
+2025-08-25 21:39:57       Captured screenshot for passed step: the chart should display month-wise labels                           
+2025-08-25 21:40:00       the user selects Last Year from the Transactions filter dropdown       Anwar           Capium365_Dashboard
+2025-08-25 21:40:00       Captured screenshot for passed step: the user selects Last Year from the Transactions filter dropdown                           
+2025-08-25 21:40:00       the dashboard metrics should be visible                                Anwar           Capium365_Dashboard
+2025-08-25 21:40:01       Captured screenshot for passed step: the dashboard metrics should be visible                           
+2025-08-25 21:40:01       Successfully captured screenshot: the chart should display daily labels for that month                           
+2025-08-25 21:40:01       the chart should display daily labels for that month                   Anwar           Capium365_Dashboard
+2025-08-25 21:40:01       Captured screenshot for passed step: the chart should display daily labels for that month                           
+2025-08-25 21:40:03       the user selects Custom from the Transactions filter dropdown          Anwar           Capium365_Dashboard
+2025-08-25 21:40:03       Failed to capture screenshot for step: the user selects Custom from the Transactions filter dropdown | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:03       Failed to capture screenshot: the user should be prompted to select a date range | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:03       Failed to capture screenshot for step: the user should be prompted to select a date range | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:03       Failed to capture screenshot: the dashboard metrics should update after range selection | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:03       Failed to capture screenshot for step: the dashboard metrics should update after range selection | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:03       Failed to capture screenshot for step: the dashboard metrics should update after range selection | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:03       Scenario Failed.                                                                                 
+2025-08-25 21:40:03       No logout element was clicked.                                                                   
+2025-08-25 21:40:03       Successfully logged out and redirected to login page.                                            
+2025-08-25 21:40:03       Scenario:User selects each account from the dropdown and verifies transaction data                           
+2025-08-25 21:40:03       Launch browser successfully.                                           user            Browser Launching
+2025-08-25 21:40:03       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:03       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:03       Scenario Failed.                                                                                 
+2025-08-25 21:40:04       No logout element was clicked.                                                                   
+2025-08-25 21:40:04       Successfully logged out and redirected to login page.                                            
+2025-08-25 21:40:04       Scenario:Verify Top Account Names "<Time Filter>" donut chart displays correct data for selected time filter                           
+2025-08-25 21:40:04       Launch browser successfully.                                           user            Browser Launching
+2025-08-25 21:40:04       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:04       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:04       Scenario Failed.                                                                                 
+2025-08-25 21:40:04       No logout element was clicked.                                                                   
+2025-08-25 21:40:04       Successfully logged out and redirected to login page.                                            
+2025-08-25 21:40:04       Scenario:Verify Expenses "<Time Filter>" Flow donut chart displays correct data for selected time filter                           
+2025-08-25 21:40:04       Launch browser successfully.                                           user            Browser Launching
+2025-08-25 21:40:04       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:04       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:04       Scenario Failed.                                                                                 
+2025-08-25 21:40:04       No logout element was clicked.                                                                   
+2025-08-25 21:40:04       Successfully logged out and redirected to login page.                                            
+2025-08-25 21:40:04       Scenario:Verify Top Earners "<Time Filter>" donut chart displays correct data for selected time filter                           
+2025-08-25 21:40:04       Launch browser successfully.                                           user            Browser Launching
+2025-08-25 21:40:04       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:04       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:04       Scenario Failed.                                                                                 
+2025-08-25 21:40:04       No logout element was clicked.                                                                   
+2025-08-25 21:40:04       Successfully logged out and redirected to login page.                                            
+2025-08-25 21:40:04       Scenario:Verify Sales Flow "<Time Filter>" donut chart displays correct data for selected time filter                           
+2025-08-25 21:40:04       Launch browser successfully.                                           user            Browser Launching
+2025-08-25 21:40:04       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:04       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:04       Scenario Failed.                                                                                 
+2025-08-25 21:40:04       No logout element was clicked.                                                                   
+2025-08-25 21:40:04       Successfully logged out and redirected to login page.                                            
+2025-08-25 21:40:04       Scenario:Click + and Select "Invoices"                                                           
+2025-08-25 21:40:04       Launch browser successfully.                                           user            Browser Launching
+2025-08-25 21:40:04       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:04       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:04       Scenario Failed.                                                                                 
+2025-08-25 21:40:04       No logout element was clicked.                                                                   
+2025-08-25 21:40:04       Successfully logged out and redirected to login page.                                            
+2025-08-25 21:40:04       Scenario:Default filter selection on Activity tab                                                
+2025-08-25 21:40:04       Launch browser successfully.                                           user            Browser Launching
+2025-08-25 21:40:04       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:04       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:04       Scenario Failed.                                                                                 
+2025-08-25 21:40:04       No logout element was clicked.                                                                   
+2025-08-25 21:40:04       Successfully logged out and redirected to login page.                                            
+2025-08-25 21:40:04       Scenario:Filter Activity by "All Invoices"                                                       
+2025-08-25 21:40:04       Launch browser successfully.                                           user            Browser Launching
+2025-08-25 21:40:04       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:04       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:04       Scenario Failed.                                                                                 
+2025-08-25 21:40:04       No logout element was clicked.                                                                   
+2025-08-25 21:40:04       Successfully logged out and redirected to login page.                                            
+2025-08-25 21:40:04       Scenario:Verify activity logs are filtered correctly by time range                               
+2025-08-25 21:40:04       Launch browser successfully.                                           user            Browser Launching
+2025-08-25 21:40:04       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:04       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:04       Scenario Failed.                                                                                 
+2025-08-25 21:40:04       No logout element was clicked.                                                                   
+2025-08-25 21:40:04       Successfully logged out and redirected to login page.                                            
+2025-08-25 21:40:04       Scenario:Add a new bank under My Business settings                                               
+2025-08-25 21:40:04       Launch browser successfully.                                           user            Browser Launching
+2025-08-25 21:40:04       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:04       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:04       Scenario Failed.                                                                                 
+2025-08-25 21:40:04       No logout element was clicked.                                                                   
+2025-08-25 21:40:04       Successfully logged out and redirected to login page.                                            
+2025-08-25 21:40:04       Scenario:Verify Announcement tab in dashborad                                                    
+2025-08-25 21:40:04       Launch browser successfully.                                           user            Browser Launching
+2025-08-25 21:40:04       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:04       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:04       Scenario Failed.                                                                                 
+2025-08-25 21:40:04       No logout element was clicked.                                                                   
+2025-08-25 21:40:04       Successfully logged out and redirected to login page.                                            
+2025-08-25 21:40:04       Scenario:Verify essential UI elements are present                                                
+2025-08-25 21:40:04       Launch browser successfully.                                           user            Browser Launching
+2025-08-25 21:40:04       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:04       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:04       Scenario Failed.                                                                                 
+2025-08-25 21:40:04       No logout element was clicked.                                                                   
+2025-08-25 21:40:04       Successfully logged out and redirected to login page.                                            
+2025-08-25 21:40:04       Scenario:Add a new support ticket                                                                
+2025-08-25 21:40:04       Launch browser successfully.                                           user            Browser Launching
+2025-08-25 21:40:04       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:04       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:04       Scenario Failed.                                                                                 
+2025-08-25 21:40:04       No logout element was clicked.                                                                   
+2025-08-25 21:40:04       Successfully logged out and redirected to login page.                                            
+2025-08-25 21:40:04       Scenario:Verify Help tab in dashboard                                                            
+2025-08-25 21:40:04       Launch browser successfully.                                           user            Browser Launching
+2025-08-25 21:40:04       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:04       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:04       Scenario Failed.                                                                                 
+2025-08-25 21:40:04       No logout element was clicked.                                                                   
+2025-08-25 21:40:04       Successfully logged out and redirected to login page.                                            
+2025-08-25 21:40:04       Scenario:Open profile popup                                                                      
+2025-08-25 21:40:04       Launch browser successfully.                                           user            Browser Launching
+2025-08-25 21:40:04       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:04       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:04       Scenario Failed.                                                                                 
+2025-08-25 21:40:05       No logout element was clicked.                                                                   
+2025-08-25 21:40:05       Successfully logged out and redirected to login page.                                            
+2025-08-25 21:40:05       Scenario:Sign out using the profile popup                                                        
+2025-08-25 21:40:05       Launch browser successfully.                                           user            Browser Launching
+2025-08-25 21:40:05       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:05       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:05       Scenario Failed.                                                                                 
+2025-08-25 21:40:05       No logout element was clicked.                                                                   
+2025-08-25 21:40:05       Successfully logged out and redirected to login page.                                            
+2025-08-25 21:40:05       Scenario:Select a different theme color "Purple"                                                 
+2025-08-25 21:40:05       Launch browser successfully.                                           user            Browser Launching
+2025-08-25 21:40:05       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:05       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:05       Scenario Failed.                                                                                 
+2025-08-25 21:40:05       No logout element was clicked.                                                                   
+2025-08-25 21:40:05       Successfully logged out and redirected to login page.                                            
+2025-08-25 21:40:05       Scenario:Select a different theme color "Dark Blue"                                              
+2025-08-25 21:40:05       Launch browser successfully.                                           user            Browser Launching
+2025-08-25 21:40:05       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:05       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:05       Scenario Failed.                                                                                 
+2025-08-25 21:40:05       No logout element was clicked.                                                                   
+2025-08-25 21:40:05       Successfully logged out and redirected to login page.                                            
+2025-08-25 21:40:05       Scenario:Select a different theme color "Sky Blue"                                               
+2025-08-25 21:40:05       Launch browser successfully.                                           user            Browser Launching
+2025-08-25 21:40:05       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:05       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:05       Scenario Failed.                                                                                 
+2025-08-25 21:40:05       No logout element was clicked.                                                                   
+2025-08-25 21:40:05       Successfully logged out and redirected to login page.                                            
+2025-08-25 21:40:05       Scenario:Select a different theme color "Blue"                                                   
+2025-08-25 21:40:05       Launch browser successfully.                                           user            Browser Launching
+2025-08-25 21:40:05       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:05       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:05       Scenario Failed.                                                                                 
+2025-08-25 21:40:05       No logout element was clicked.                                                                   
+2025-08-25 21:40:05       Successfully logged out and redirected to login page.                                            
+2025-08-25 21:40:05       Scenario:Select a different theme color "Teal"                                                   
+2025-08-25 21:40:05       Launch browser successfully.                                           user            Browser Launching
+2025-08-25 21:40:05       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:05       Failed to capture screenshot for step: Launch the browser | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [073682405d104c77704fd69526f01c37, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52212/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 073682405d104c77704fd69526f01c37                           
+2025-08-25 21:40:05       Scenario Failed.                                                                                 
+2025-08-25 21:40:05       No logout element was clicked.                                                                   
+2025-08-25 21:40:05       Successfully logged out and redirected to login page.                                            
+2025-08-25 21:41:21       Driver setup successfully                                                                        
+2025-08-25 21:41:22       Scenario:Validate Invoice dashboard chart for 'Time Filter'                                      
+2025-08-25 21:41:22       Launch browser successfully.                                           user            Browser Launching
+2025-08-25 21:41:22       Captured screenshot for passed step: Launch the browser                                          
+2025-08-25 21:41:26       User need to enter the Application Url                                 user            URL entered successfully.
+2025-08-25 21:41:26       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-08-25 21:41:30       Click on Capium365 Client login                                        user            Click     
+2025-08-25 21:41:31       Captured screenshot for passed step: Click on Capium365 Client login                             
+2025-08-25 21:41:31       Username and Password entered successfully.                            user            Credentials
+2025-08-25 21:41:31       Captured screenshot for passed step: User Enter username and Password                            
+2025-08-25 21:41:34       User Click on next button                                              user            Button    
+2025-08-25 21:41:34       Failed to capture screenshot for step: User Click on login button | Error: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ba9adf7819a0368919909f0abc7204bd, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52333}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52333/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ba9adf7819a0368919909f0abc7204bd                           
+2025-08-25 21:41:34       Failed to capture screenshot for step: User Click on login button | Error: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.139)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ba9adf7819a0368919909f0abc7204bd, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52333}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52333/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ba9adf7819a0368919909f0abc7204bd                           
+2025-08-25 21:41:34       Scenario Failed.                                                                                 
+2025-08-25 21:45:12       Driver setup successfully                                                                        
+2025-08-25 21:45:13       Scenario:Validate Invoice dashboard chart for 'Time Filter'                                      
+2025-08-25 21:45:13       Launch browser successfully.                                           user            Browser Launching
+2025-08-25 21:45:13       Captured screenshot for passed step: Launch the browser                                          
+2025-08-25 21:45:17       User need to enter the Application Url                                 user            URL entered successfully.
+2025-08-25 21:45:17       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-08-25 21:45:19       Click on Capium365 Client login                                        user            Click     
+2025-08-25 21:45:20       Captured screenshot for passed step: Click on Capium365 Client login                             
+2025-08-25 21:45:20       Username and Password entered successfully.                            user            Credentials
+2025-08-25 21:45:20       Captured screenshot for passed step: User Enter username and Password                            
+2025-08-25 21:45:23       User Click on next button                                              user            Button    
+2025-08-25 21:45:23       Captured screenshot for passed step: User Click on login button                                  
+2025-08-25 21:45:23       OTP enterned sucessfully                                               user            OTP       
+2025-08-25 21:45:24       Captured screenshot for passed step: User enter OTP                                              
+2025-08-25 21:45:38       Login button clicked sucessfully                                       user            Verifying 
+2025-08-25 21:45:38       Captured screenshot for passed step: Click on verify account                                     
+2025-08-25 21:45:48       Redirected to Capium365 homepage sucessfully                           user            Redirection
+2025-08-25 21:45:48       Successfully captured screenshot: Redirect to365 client                                          
+2025-08-25 21:45:49       Captured screenshot for passed step: Redirect to365 client                                       
+2025-08-25 21:45:50       the user selects This Year from the filter dropdown                    Anwar           Capium365_Dashboard
+2025-08-25 21:45:50       Captured screenshot for passed step: the user selects This Year from the filter dropdown                           
+2025-08-25 21:45:50       the dashboard metrics should be visible                                Anwar           Capium365_Dashboard
+2025-08-25 21:45:50       Captured screenshot for passed step: the dashboard metrics should be visible                           
+2025-08-25 21:45:50       Successfully captured screenshot: the chart should display month-wise labels                           
+2025-08-25 21:45:50       the chart should display month-wise labels                             Anwar           Capium365_Dashboard
+2025-08-25 21:45:50       Captured screenshot for passed step: the chart should display month-wise labels                           
+2025-08-25 21:45:52       the user selects This Month from the filter dropdown                   Anwar           Capium365_Dashboard
+2025-08-25 21:45:52       Captured screenshot for passed step: the user selects This Month from the filter dropdown                           
+2025-08-25 21:45:52       the dashboard metrics should be visible                                Anwar           Capium365_Dashboard
+2025-08-25 21:45:52       Captured screenshot for passed step: the dashboard metrics should be visible                           
+2025-08-25 21:45:52       Successfully captured screenshot: the chart should display month-wise labels                           
+2025-08-25 21:45:52       the chart should display day-wise labels                               Anwar           Capium365_Dashboard
+2025-08-25 21:45:52       Captured screenshot for passed step: the chart should display day-wise labels                           
+2025-08-25 21:45:53       the user selects This Week from the filter dropdown                    Anwar           Capium365_Dashboard
+2025-08-25 21:45:54       Captured screenshot for passed step: the user selects This Week from the filter dropdown                           
+2025-08-25 21:45:54       the dashboard metrics should be visible                                Anwar           Capium365_Dashboard
+2025-08-25 21:45:54       Captured screenshot for passed step: the dashboard metrics should be visible                           
+2025-08-25 21:45:54       Successfully captured screenshot: the chart should display month-wise labels                           
+2025-08-25 21:45:54       the chart should display day-wise labels                               Anwar           Capium365_Dashboard
+2025-08-25 21:45:54       Captured screenshot for passed step: the chart should display day-wise labels                           
+2025-08-25 21:45:55       the user selects Last Week from the filter dropdown                    Anwar           Capium365_Dashboard
+2025-08-25 21:45:56       Captured screenshot for passed step: the user selects Last Week from the filter dropdown                           
+2025-08-25 21:45:56       the dashboard metrics should be visible                                Anwar           Capium365_Dashboard
+2025-08-25 21:45:56       Captured screenshot for passed step: the dashboard metrics should be visible                           
+2025-08-25 21:45:56       Successfully captured screenshot: the chart should display month-wise labels                           
+2025-08-25 21:45:56       the chart should display day-wise labels                               Anwar           Capium365_Dashboard
+2025-08-25 21:45:56       Captured screenshot for passed step: the chart should display day-wise labels                           
+2025-08-25 21:45:57       the user selects Last Month from the filter dropdown                   Anwar           Capium365_Dashboard
+2025-08-25 21:45:57       Captured screenshot for passed step: the user selects Last Month from the filter dropdown                           
+2025-08-25 21:45:57       the dashboard metrics should be visible                                Anwar           Capium365_Dashboard
+2025-08-25 21:45:58       Captured screenshot for passed step: the dashboard metrics should be visible                           
+2025-08-25 21:45:58       Successfully captured screenshot: the chart should display month-wise labels                           
+2025-08-25 21:45:58       the chart should display day-wise labels                               Anwar           Capium365_Dashboard
+2025-08-25 21:45:58       Captured screenshot for passed step: the chart should display day-wise labels                           
+2025-08-25 21:45:59       the user selects This Quarter from the filter dropdown                 Anwar           Capium365_Dashboard
+2025-08-25 21:45:59       Captured screenshot for passed step: the user selects This Quarter from the filter dropdown                           
+2025-08-25 21:45:59       the dashboard metrics should be visible                                Anwar           Capium365_Dashboard
+2025-08-25 21:46:00       Captured screenshot for passed step: the dashboard metrics should be visible                           
+2025-08-25 21:46:00       Successfully captured screenshot: the chart should display month-wise labels                           
+2025-08-25 21:46:00       the chart should display month-wise labels                             Anwar           Capium365_Dashboard
+2025-08-25 21:46:00       Captured screenshot for passed step: the chart should display month-wise labels                           
+2025-08-25 21:46:01       the user selects Last Quarter from the filter dropdown                 Anwar           Capium365_Dashboard
+2025-08-25 21:46:01       Captured screenshot for passed step: the user selects Last Quarter from the filter dropdown                           
+2025-08-25 21:46:01       the dashboard metrics should be visible                                Anwar           Capium365_Dashboard
+2025-08-25 21:46:01       Captured screenshot for passed step: the dashboard metrics should be visible                           
+2025-08-25 21:46:01       Successfully captured screenshot: the chart should display month-wise labels                           
+2025-08-25 21:46:01       the chart should display month-wise labels                             Anwar           Capium365_Dashboard
+2025-08-25 21:46:02       Captured screenshot for passed step: the chart should display month-wise labels                           
+2025-08-25 21:46:03       the user selects Last Year from the filter dropdown                    Anwar           Capium365_Dashboard
+2025-08-25 21:46:03       Captured screenshot for passed step: the user selects Last Year from the filter dropdown                           
+2025-08-25 21:46:03       the dashboard metrics should be visible                                Anwar           Capium365_Dashboard
+2025-08-25 21:46:03       Captured screenshot for passed step: the dashboard metrics should be visible                           
+2025-08-25 21:46:03       Successfully captured screenshot: the chart should display daily labels for that month                           
+2025-08-25 21:46:03       the chart should display daily labels for that month                   Anwar           Capium365_Dashboard
+2025-08-25 21:46:03       Captured screenshot for passed step: the chart should display daily labels for that month                           
+2025-08-25 21:46:05       the user selects Custom from the filter dropdown                       Anwar           Capium365_Dashboard
+2025-08-25 21:46:05       Captured screenshot for passed step: the user selects Custom from the filter dropdown                           
+2025-08-25 21:46:05       Successfully captured screenshot: the user should be prompted to select a date range                           
+2025-08-25 21:46:05       Captured screenshot for passed step: the user should be prompted to select a date range                           
+2025-08-25 21:46:05       Successfully captured screenshot: the dashboard metrics should update after range selection                           
+2025-08-25 21:46:05       Captured screenshot for passed step: the dashboard metrics should update after range selection                           
+2025-08-25 21:46:07       the user selects This Financial Year from the filter dropdown          Anwar           Capium365_Dashboard
+2025-08-25 21:46:07       Captured screenshot for passed step: the user selects This Financial Year from the filter dropdown                           
+2025-08-25 21:46:07       the dashboard metrics should be visible                                Anwar           Capium365_Dashboard
+2025-08-25 21:46:07       Captured screenshot for passed step: the dashboard metrics should be visible                           
+2025-08-25 21:46:07       Successfully captured screenshot: the chart should display month-wise labels \(Apr to Mar)                           
+2025-08-25 21:46:07       the chart should display month-wise labels \(Apr to Mar)               Anwar           Capium365_Dashboard
+2025-08-25 21:46:07       Captured screenshot for passed step: the chart should display month-wise labels (Apr to Mar)                           
+2025-08-25 21:46:07       Scenario Passed.                                                                                 
+2025-08-25 21:46:07       Clicked 5.0 Profile Icon.                                                                        
+2025-08-25 21:46:09       Clicked 5.0 Sign Out.                                                                            
+2025-08-25 21:46:09       Successfully redirected to login page after logout.                                              
+2025-08-25 21:46:09       Successfully logged out and redirected to login page.                                            
+2025-08-25 21:46:09       Scenario:Validate Transactions dashboard chart for 'This Year'                                   
+2025-08-25 21:46:09       Launch browser successfully.                                           user            Browser Launching
+2025-08-25 21:46:09       Captured screenshot for passed step: Launch the browser                                          
+2025-08-25 21:46:09       User need to enter the Application Url                                 user            URL entered successfully.
+2025-08-25 21:46:10       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-08-25 21:46:10       Click on Capium365 Client login                                        user            Click     
+2025-08-25 21:46:10       Captured screenshot for passed step: Click on Capium365 Client login                             
+2025-08-25 21:46:10       Username and Password entered successfully.                            user            Credentials
+2025-08-25 21:46:11       Captured screenshot for passed step: User Enter username and Password                            
+2025-08-25 21:46:14       User Click on next button                                              user            Button    
+2025-08-25 21:46:14       Captured screenshot for passed step: User Click on login button                                  
+2025-08-25 21:46:14       OTP enterned sucessfully                                               user            OTP       
+2025-08-25 21:46:14       Captured screenshot for passed step: User enter OTP                                              
+2025-08-25 21:46:27       Login button clicked sucessfully                                       user            Verifying 
+2025-08-25 21:46:27       Captured screenshot for passed step: Click on verify account                                     
+2025-08-25 21:46:37       Redirected to Capium365 homepage sucessfully                           user            Redirection
+2025-08-25 21:46:37       Successfully captured screenshot: Redirect to365 client                                          
+2025-08-25 21:46:38       Captured screenshot for passed step: Redirect to365 client                                       
+2025-08-25 21:46:41       the user selects This Year from the Transactions filter dropdown       Anwar           Capium365_Dashboard
+2025-08-25 21:46:41       Captured screenshot for passed step: the user selects This Year from the Transactions filter dropdown                           
+2025-08-25 21:46:41       the dashboard metrics should be visible                                Anwar           Capium365_Dashboard
+2025-08-25 21:46:42       Captured screenshot for passed step: the dashboard metrics should be visible                           
+2025-08-25 21:46:42       Successfully captured screenshot: the chart should display month-wise labels                           
+2025-08-25 21:46:42       the chart should display month-wise labels                             Anwar           Capium365_Dashboard
+2025-08-25 21:46:42       Captured screenshot for passed step: the chart should display month-wise labels                           
+2025-08-25 21:46:46       the user selects This Month from the Transactions filter dropdown      Anwar           Capium365_Dashboard
+2025-08-25 21:46:46       Captured screenshot for passed step: the user selects This Month from the Transactions filter dropdown                           
+2025-08-25 21:46:46       the dashboard metrics should be visible                                Anwar           Capium365_Dashboard
+2025-08-25 21:46:46       Captured screenshot for passed step: the dashboard metrics should be visible                           
+2025-08-25 21:46:46       Successfully captured screenshot: the chart should display month-wise labels                           
+2025-08-25 21:46:46       the chart should display day-wise labels                               Anwar           Capium365_Dashboard
+2025-08-25 21:46:46       Captured screenshot for passed step: the chart should display day-wise labels                           
+2025-08-25 21:49:32       Driver setup successfully                                                                        
+2025-08-25 21:49:32       Scenario:Validate Invoice dashboard chart for 'Time Filter'                                      
+2025-08-25 21:49:32       Launch browser successfully.                                           user            Browser Launching
+2025-08-25 21:49:32       Captured screenshot for passed step: Launch the browser                                          
+2025-08-25 21:49:34       User need to enter the Application Url                                 user            URL entered successfully.
+2025-08-25 21:49:34       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-08-25 21:49:37       Click on Capium365 Client login                                        user            Click     
+2025-08-25 21:49:38       Captured screenshot for passed step: Click on Capium365 Client login                             
+2025-08-25 21:49:38       Username and Password entered successfully.                            user            Credentials
+2025-08-25 21:49:38       Captured screenshot for passed step: User Enter username and Password                            
+2025-08-25 21:49:41       User Click on next button                                              user            Button    
+2025-08-25 21:49:41       Captured screenshot for passed step: User Click on login button                                  
+2025-08-25 21:49:41       OTP enterned sucessfully                                               user            OTP       
+2025-08-25 21:49:41       Captured screenshot for passed step: User enter OTP                                              
+2025-08-25 21:50:03       Login button clicked sucessfully                                       user            Verifying 
+2025-08-25 21:50:03       Captured screenshot for passed step: Click on verify account                                     
+2025-08-25 21:50:13       Redirected to Capium365 homepage sucessfully                           user            Redirection
+2025-08-25 21:50:13       Successfully captured screenshot: Redirect to365 client                                          
+2025-08-25 21:50:13       Captured screenshot for passed step: Redirect to365 client                                       
+2025-08-25 21:50:14       the user selects This Year from the filter dropdown                    Anwar           Capium365_Dashboard
+2025-08-25 21:50:14       Captured screenshot for passed step: the user selects This Year from the filter dropdown                           
+2025-08-25 21:50:14       the dashboard metrics should be visible                                Anwar           Capium365_Dashboard
+2025-08-25 21:50:14       Captured screenshot for passed step: the dashboard metrics should be visible                           
+2025-08-25 21:50:15       Successfully captured screenshot: the chart should display month-wise labels                           
+2025-08-25 21:50:15       the chart should display month-wise labels                             Anwar           Capium365_Dashboard
+2025-08-25 21:50:15       Captured screenshot for passed step: the chart should display month-wise labels                           
+2025-08-25 21:50:16       the user selects This Month from the filter dropdown                   Anwar           Capium365_Dashboard
+2025-08-25 21:50:16       Captured screenshot for passed step: the user selects This Month from the filter dropdown                           
+2025-08-25 21:50:16       the dashboard metrics should be visible                                Anwar           Capium365_Dashboard
+2025-08-25 21:50:16       Captured screenshot for passed step: the dashboard metrics should be visible                           
+2025-08-25 21:50:16       Successfully captured screenshot: the chart should display month-wise labels                           
+2025-08-25 21:50:16       the chart should display day-wise labels                               Anwar           Capium365_Dashboard
+2025-08-25 21:50:17       Captured screenshot for passed step: the chart should display day-wise labels                           
+2025-08-25 21:50:18       the user selects This Week from the filter dropdown                    Anwar           Capium365_Dashboard
+2025-08-25 21:50:18       Captured screenshot for passed step: the user selects This Week from the filter dropdown                           
+2025-08-25 21:50:18       the dashboard metrics should be visible                                Anwar           Capium365_Dashboard
+2025-08-25 21:50:18       Captured screenshot for passed step: the dashboard metrics should be visible                           
+2025-08-25 21:50:18       Successfully captured screenshot: the chart should display month-wise labels                           
+2025-08-25 21:50:18       the chart should display day-wise labels                               Anwar           Capium365_Dashboard
+2025-08-25 21:50:18       Captured screenshot for passed step: the chart should display day-wise labels                           
+2025-08-25 21:50:20       the user selects Last Week from the filter dropdown                    Anwar           Capium365_Dashboard
+2025-08-25 21:50:20       Captured screenshot for passed step: the user selects Last Week from the filter dropdown                           
+2025-08-25 21:50:20       the dashboard metrics should be visible                                Anwar           Capium365_Dashboard
+2025-08-25 21:50:20       Captured screenshot for passed step: the dashboard metrics should be visible                           
+2025-08-25 21:50:20       Successfully captured screenshot: the chart should display month-wise labels                           
+2025-08-25 21:50:20       the chart should display day-wise labels                               Anwar           Capium365_Dashboard
+2025-08-25 21:50:20       Captured screenshot for passed step: the chart should display day-wise labels                           
+2025-08-25 21:50:21       the user selects Last Month from the filter dropdown                   Anwar           Capium365_Dashboard
+2025-08-25 21:50:22       Captured screenshot for passed step: the user selects Last Month from the filter dropdown                           
+2025-08-25 21:50:22       the dashboard metrics should be visible                                Anwar           Capium365_Dashboard
+2025-08-25 21:50:22       Captured screenshot for passed step: the dashboard metrics should be visible                           
+2025-08-25 21:50:22       Successfully captured screenshot: the chart should display month-wise labels                           
+2025-08-25 21:50:22       the chart should display day-wise labels                               Anwar           Capium365_Dashboard
+2025-08-25 21:50:22       Captured screenshot for passed step: the chart should display day-wise labels                           
+2025-08-25 21:50:23       the user selects This Quarter from the filter dropdown                 Anwar           Capium365_Dashboard
+2025-08-25 21:50:24       Captured screenshot for passed step: the user selects This Quarter from the filter dropdown                           
+2025-08-25 21:50:24       the dashboard metrics should be visible                                Anwar           Capium365_Dashboard
+2025-08-25 21:50:24       Captured screenshot for passed step: the dashboard metrics should be visible                           
+2025-08-25 21:50:24       Successfully captured screenshot: the chart should display month-wise labels                           
+2025-08-25 21:50:24       the chart should display month-wise labels                             Anwar           Capium365_Dashboard
+2025-08-25 21:50:24       Captured screenshot for passed step: the chart should display month-wise labels                           
+2025-08-25 21:50:25       the user selects Last Quarter from the filter dropdown                 Anwar           Capium365_Dashboard
+2025-08-25 21:50:25       Captured screenshot for passed step: the user selects Last Quarter from the filter dropdown                           
+2025-08-25 21:50:25       the dashboard metrics should be visible                                Anwar           Capium365_Dashboard
+2025-08-25 21:50:26       Captured screenshot for passed step: the dashboard metrics should be visible                           
+2025-08-25 21:50:26       Successfully captured screenshot: the chart should display month-wise labels                           
+2025-08-25 21:50:26       the chart should display month-wise labels                             Anwar           Capium365_Dashboard
+2025-08-25 21:50:26       Captured screenshot for passed step: the chart should display month-wise labels                           
+2025-08-25 21:50:27       the user selects Last Year from the filter dropdown                    Anwar           Capium365_Dashboard
+2025-08-25 21:50:27       Captured screenshot for passed step: the user selects Last Year from the filter dropdown                           
+2025-08-25 21:50:27       the dashboard metrics should be visible                                Anwar           Capium365_Dashboard
+2025-08-25 21:50:27       Captured screenshot for passed step: the dashboard metrics should be visible                           
+2025-08-25 21:50:27       Successfully captured screenshot: the chart should display daily labels for that month                           
+2025-08-25 21:50:27       the chart should display daily labels for that month                   Anwar           Capium365_Dashboard
+2025-08-25 21:50:28       Captured screenshot for passed step: the chart should display daily labels for that month                           
+2025-08-25 21:50:29       the user selects Custom from the filter dropdown                       Anwar           Capium365_Dashboard
+2025-08-25 21:50:29       Captured screenshot for passed step: the user selects Custom from the filter dropdown                           
+2025-08-25 21:50:29       Successfully captured screenshot: the user should be prompted to select a date range                           
+2025-08-25 21:50:29       Captured screenshot for passed step: the user should be prompted to select a date range                           
+2025-08-25 21:50:29       Successfully captured screenshot: the dashboard metrics should update after range selection                           
+2025-08-25 21:50:30       Captured screenshot for passed step: the dashboard metrics should update after range selection                           
+2025-08-25 21:50:31       the user selects This Financial Year from the filter dropdown          Anwar           Capium365_Dashboard
+2025-08-25 21:50:31       Captured screenshot for passed step: the user selects This Financial Year from the filter dropdown                           
+2025-08-25 21:50:31       the dashboard metrics should be visible                                Anwar           Capium365_Dashboard
+2025-08-25 21:50:31       Captured screenshot for passed step: the dashboard metrics should be visible                           
+2025-08-25 21:50:31       Successfully captured screenshot: the chart should display month-wise labels \(Apr to Mar)                           
+2025-08-25 21:50:31       the chart should display month-wise labels \(Apr to Mar)               Anwar           Capium365_Dashboard
+2025-08-25 21:50:31       Captured screenshot for passed step: the chart should display month-wise labels (Apr to Mar)                           
+2025-08-25 21:50:31       Scenario Passed.                                                                                 
+2025-08-25 21:50:32       Clicked 5.0 Profile Icon.                                                                        
+2025-08-25 21:50:33       Clicked 5.0 Sign Out.                                                                            
+2025-08-25 21:50:34       Successfully redirected to login page after logout.                                              
+2025-08-25 21:50:34       Successfully logged out and redirected to login page.                                            
+2025-08-25 21:50:34       Browser closed.                                                                                  

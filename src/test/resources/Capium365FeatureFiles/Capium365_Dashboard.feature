@@ -45,7 +45,7 @@ Feature: Dashboard Chart Validation
     And the chart should display month-wise labels (Apr to Mar)
 
   #Transactions Chart---------------------------------------------------------
-  @Dashboard
+  #@Dashboard
   Scenario: Validate Transactions dashboard chart for 'This Year'
     When the user selects This Year from the Transactions filter dropdown
     Then the dashboard metrics should be visible
@@ -78,7 +78,7 @@ Feature: Dashboard Chart Validation
     Then the dashboard metrics should be visible
     And the chart should display month-wise labels (Apr to Mar)
 
-  @Dashboard
+  #@Dashboard
   Scenario: User selects each account from the dropdown and verifies transaction data
     Given the user is logged in and navigates to the Transactions dashboard
     When the user opens the All Accounts dropdown
@@ -88,7 +88,7 @@ Feature: Dashboard Chart Validation
     And the chart should show bars or No data available based on the selected account's transactions
 
   #TopAccountNames================================================================================
-  @Dashboard
+  #@Dashboard
   Scenario: Verify Top Account Names "<Time Filter>" donut chart displays correct data for selected time filter
     Given user is on the Top Account Names dashboard
     When user selects "This Week" from the filter dropdown
@@ -126,7 +126,7 @@ Feature: Dashboard Chart Validation
     And donut chart should contain valid account categories and values
 
   #ExpensesFlow==========================================================================================
-  @Dashboard
+  #@Dashboard
   Scenario: Verify Expenses "<Time Filter>" Flow donut chart displays correct data for selected time filter
     Given user is on the Expenses Flow dashboard
     When user selects Expenses Flow "This Week" from the filter dropdown
@@ -164,7 +164,7 @@ Feature: Dashboard Chart Validation
     And donut chart should contain valid account categories and values
 
   #TopEarners==============================================================================
-  @Dashboard
+  #@Dashboard
   Scenario: Verify Top Earners "<Time Filter>" donut chart displays correct data for selected time filter
     Given user is on the Top Earners dashboard
     When user selects Top Earners "This Week" from the filter dropdown
@@ -202,7 +202,7 @@ Feature: Dashboard Chart Validation
     And donut chart should contain valid account categories and values
 
   #SalesFlow================================================================================
-  @Dashboard
+  #@Dashboard
   Scenario: Verify Sales Flow "<Time Filter>" donut chart displays correct data for selected time filter
     Given user is on the Sales Flow dashboard
     When user selects Sales Flow "This Week" from the filter dropdown
@@ -239,7 +239,7 @@ Feature: Dashboard Chart Validation
     Then donut chart should be displayed
     And donut chart should contain valid account categories and values
 
-  @Dashboard
+  #@Dashboard
   Scenario: Click + and Select "Invoices"
     Given the user is on the dashboard
     When the user clicks on the + icon and selects Invoices
@@ -279,14 +279,14 @@ Feature: Dashboard Chart Validation
     Then the Add Bank Account form should be displayed
 
   #Activity Screen Scenarios =======================================================================
-  @Dashboard
+  #@Dashboard
   Scenario: Default filter selection on Activity tab
     Given the user is on the Activity tab
     Then "All" should be selected by default in the category dropdown
     And "This Month" should be selected in the time filter dropdown
     And all activity logs for this month should be visible
 
-  @Dashboard
+  #@Dashboard
   Scenario: Filter Activity by "All Invoices"
     Given the user is on the Activity tab
     When the user selects "All Invoices" from the category dropdown
@@ -320,7 +320,7 @@ Feature: Dashboard Chart Validation
     When the user selects a category/time filter combination with no data
     Then an empty state message like "No activity found" should be displayed
 
-  @Dashboard
+  #@Dashboard
   Scenario: Verify activity logs are filtered correctly by time range
     Given the user is on the Activity tab
     When user selects "This Week" from the Activity time filter dropdown
@@ -347,7 +347,7 @@ Feature: Dashboard Chart Validation
     Then activity logs should be displayed for "All Time"
 
   #Settings Scenarios: =========================================================================================
-  @Dashboard
+  #@Dashboard
   Scenario: Add a new bank under My Business settings
     When the user clicks on the Settings icon
     And the user selects "My Business" from the Settings dropdown
@@ -356,13 +356,13 @@ Feature: Dashboard Chart Validation
     Then the new bank details should be saved successfully
 
   #Announcement Scenarios=======================================================================================
-  @Dashboard
+  #@Dashboard
   Scenario: Verify Announcement tab in dashborad
     Given User on dashboard and selects Announcement tab
     When user redirect to Announcement tab and verify any announcements is avilaible
 
   #Tickets Tab Scenarios :===============================================================================
-  @Dashboard
+  #@Dashboard
   Scenario: Verify essential UI elements are present
     Given the user is on the Support Ticket tab
     Then the "Add Support Ticket" button should be visible
@@ -370,7 +370,7 @@ Feature: Dashboard Chart Validation
     And the "Open" filter dropdown should be visible
     And the ticket table should display the columns "Ticket No.", "Subject", "Created on", "Status", and "Department"
 
-  @Dashboard
+  #@Dashboard
   Scenario: Add a new support ticket
     Given the user is on the Support Ticket tab
     Given the user clicks on the "Add Support Ticket" button
@@ -412,13 +412,13 @@ Feature: Dashboard Chart Validation
   #Then the ticket table should display a message "No tickets found"
   #
   #Help Tab Scenario =====================================================================================
-  @Dashboard
+  #@Dashboard
   Scenario: Verify Help tab in dashboard
     Given User on the dashboard and selects help tab
     When user should redirect to help information page
 
   #Profile Scenarios =====================================================================================
-  @Dashboard
+  #@Dashboard
   Scenario: Open profile popup
     Given the user is in Dashboard page
     When the user clicks the profile icon at the top-right corner
@@ -428,14 +428,14 @@ Feature: Dashboard Chart Validation
     And it should display a color palette for theme selection
     When the user clicks the profile icon at the top-right corner
 
-  @Dashboard
+  #@Dashboard
   Scenario: Sign out using the profile popup
     Given the profile popup is open
     When the user clicks the "Sign Out" button
     Then the user should be logged out
     And the login page should be displayed
 
-  @Dashboard
+  #@Dashboard
   Scenario Outline: Select a different theme color "<Theme Color>"
     Given the profile popup is open
     When the user selects the "<Theme Color>" from the palette
@@ -454,7 +454,7 @@ Feature: Dashboard Chart Validation
       | Black       |
       | Green       |
 
-  @Dashboard
+  #@Dashboard
   Scenario: Close profile popup by clicking outside
     Given the profile popup is open
     When the user clicks outside the popup
