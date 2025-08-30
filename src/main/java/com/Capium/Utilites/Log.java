@@ -34,6 +34,14 @@ public class Log {
     public static void error(String message) {
         logger.error(message);
     }
+    
+    public static void error(String message, Throwable throwable) {
+        if (message != null && !message.isEmpty()) {
+            logger.error("[ERROR] " + message, throwable);
+        } else {
+            logger.error("[ERROR] Exception occurred:", throwable);
+        }
+    }
 
     public static void debug(String message) {
         logger.debug(message);

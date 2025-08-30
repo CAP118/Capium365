@@ -6,7 +6,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
 	    features = "src\\test\\resources\\Capium365FeatureFiles\\Capium365_BankTab.feature",
 	    glue = "com.Capium365.StepDefination",
-	    tags = "@BankTab", 
+	    tags = "@Rerun", 
 	    plugin = {
 	        "pretty",
 	        "html:target/cucumber-reports/CucumberReport.html",

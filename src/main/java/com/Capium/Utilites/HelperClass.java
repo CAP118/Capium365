@@ -25,6 +25,11 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.service.ExtentService;
+
 import io.cucumber.java.Scenario;
 
 
@@ -1125,7 +1130,5 @@ public class HelperClass {
         if (!success) {
             throw new RuntimeException("Failed to perform action '" + actionType + "' on row index " + rowIndex);
         }
-    }
-    
-	 
+    } 
 }

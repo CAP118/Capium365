@@ -5,6 +5,8 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.StaleElementReferenceException;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
@@ -27,11 +29,32 @@ public class Capium365_BankTab_Actions {
 		PageFactory.initElements(driver, banklocators);
 	}
 	
-	public void clickonbanktab() throws Exception {
-		 By receiptsTab = By.xpath("//span[text()='Bank']/ancestor::a");
-			WebElement element = HelperClass.waitUntilClickable(receiptsTab);
-			element.click();	
+	public void clickOnBankTab() {
+	    By bankTab = By.xpath("//span[normalize-space()='Bank']/ancestor::a");
+
+	    try {
+	        WebElement element = HelperClass.waitUntilClickable(bankTab);
+	        HelperClass.scrollToElement(bankTab);
+	        try {
+	            element.click();
+	            Log.info("Clicked on Bank tab successfully.");
+	        } catch (Exception e) {
+	            Log.warn("Normal click failed on Bank tab. Retrying with JS Click...");
+	            HelperClass.clickUsingJS(element);
+	        }
+	    } catch (TimeoutException te) {
+	        Log.error("Bank tab not found within timeout.", te);
+	        throw te;
+	    } catch (StaleElementReferenceException se) {
+	        Log.warn("StaleElementReferenceException on Bank tab. Retrying...");
+	        WebElement element = HelperClass.waitUntilClickable(bankTab);
+	        element.click();
+	    } catch (Exception ex) {
+	        Log.error("Unexpected error while clicking Bank tab.", ex);
+	        throw ex;
+	    }
 	}
+
 	
 	public void Verifybanktab() {
 		wait.until(ExpectedConditions.visibilityOf(banklocators.addnewaccountbutn));
@@ -175,6 +198,7 @@ public class Capium365_BankTab_Actions {
 		} else {
 		    System.out.println("Text not matched. Actual: " + actualText);
 		}
+		
 		
 		    wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//mat-icon[normalize-space()='highlight_off']/ancestor::button")));
 			HelperClass.safeClick(By.xpath("//mat-icon[normalize-space()='highlight_off']/ancestor::button"));

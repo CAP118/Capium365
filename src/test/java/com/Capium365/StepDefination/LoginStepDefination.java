@@ -18,7 +18,7 @@ public class LoginStepDefination {
 	public void launch_the_browser() {
 		StepTracker.setCurrentStep("Launch the browser");
 		Log.info("Launch browser successfully.", "Browser Launching");
-
+//Hooks.logInfo("Launch the browser");
 	}
 
 	@Given("User need to enter the Application Url")
@@ -27,6 +27,7 @@ public class LoginStepDefination {
 		HelperClass.openPage(url);
 		StepTracker.setCurrentStep("User need to enter the Application Url");
 		Log.info("User need to enter the Application Url", "URL entered successfully.");
+		//Hooks.logInfo("User need to enter the Application Url");
 	}
 
 	@Given("Click on Capium365 Client login")
@@ -34,6 +35,7 @@ public class LoginStepDefination {
 		loginpage.clickCapium365ClientLogin();
 		StepTracker.setCurrentStep("Click on Capium365 Client login");
 		Log.info("Click on Capium365 Client login", "Click");
+		//Hooks.logInfo("Click on Capium365 Client login");
 	}
 
 	@When("User Enter username")
