@@ -80,7 +80,7 @@ public class LoginLocators {
 	@FindBy(xpath="//h6[text()='365']//parent::div")
 	public WebElement InsideCicon5_0_365Module;
 	
-	@FindBy(xpath="//div[normalize-space()='Capium 365']")
+	@FindBy(xpath="//div[normalize-space()='Capium 365']/parent::div")
 	public WebElement insideCicon3_0_365Module;
 	
 	@FindBy(xpath="//img[@alt='Capium Logo']//parent::div//parent::a")

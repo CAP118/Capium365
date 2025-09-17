@@ -1,485 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="28" passed="27" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-27T11:27:06 IST" name="Default suite" finished-at="2025-08-27T11:53:59 IST" duration-ms="1612733">
+  <suite started-at="2025-09-17T19:26:52 IST" name="Default suite" finished-at="2025-09-17T19:27:36 IST" duration-ms="44018">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Capium365.RunnerFiles.Capium365_Dashboard_Runner@399c4be1]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Capium365.RunnerFiles.ClientPortal_Users_Runner@399c4be1]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-08-27T11:27:06 IST" name="Default test" finished-at="2025-08-27T11:53:59 IST" duration-ms="1612733">
-      <class name="com.Capium365.RunnerFiles.Capium365_Dashboard_Runner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.Capium365.RunnerFiles.Capium365_Dashboard_Runner@399c4be1]" started-at="2025-08-27T11:27:06 IST" name="setUpClass" finished-at="2025-08-27T11:27:12 IST" duration-ms="5947" status="PASS">
+    <test started-at="2025-09-17T19:26:52 IST" name="Default test" finished-at="2025-09-17T19:27:36 IST" duration-ms="44018">
+      <class name="com.Capium365.RunnerFiles.ClientPortal_Users_Runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.Capium365.RunnerFiles.ClientPortal_Users_Runner@399c4be1]" started-at="2025-09-17T19:26:52 IST" name="setUpClass" finished-at="2025-09-17T19:26:56 IST" duration-ms="3740" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5181ec31]]>
+                <![CDATA[org.testng.TestRunner@2bdab835]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Capium365.RunnerFiles.Capium365_Dashboard_Runner@399c4be1]" started-at="2025-08-27T11:27:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-27T11:28:37 IST" duration-ms="85239" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Capium365.RunnerFiles.ClientPortal_Users_Runner@399c4be1]" started-at="2025-09-17T19:26:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-17T19:27:35 IST" duration-ms="39299" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Validate Invoice dashboard chart for 'Time Filter'"]]>
+                <![CDATA["Validate Archive button"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Dashboard Chart Validation"]]>
+                <![CDATA["Validate USers Menu"]]>
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Capium365.RunnerFiles.Capium365_Dashboard_Runner@399c4be1]" started-at="2025-08-27T11:28:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-27T11:30:04 IST" duration-ms="86534" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate Transactions dashboard chart for 'This Year'"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Dashboard Chart Validation"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Capium365.RunnerFiles.Capium365_Dashboard_Runner@399c4be1]" started-at="2025-08-27T11:30:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-27T11:30:53 IST" duration-ms="48901" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["User selects each account from the dropdown and verifies transaction data"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Dashboard Chart Validation"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Capium365.RunnerFiles.Capium365_Dashboard_Runner@399c4be1]" started-at="2025-08-27T11:30:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-27T11:33:50 IST" duration-ms="176953" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify Top Account Names "<Time Filter>" donut chart displays correct data for selected time filter"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Dashboard Chart Validation"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Capium365.RunnerFiles.Capium365_Dashboard_Runner@399c4be1]" started-at="2025-08-27T11:33:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-27T11:34:51 IST" duration-ms="61056" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify Expenses "<Time Filter>" Flow donut chart displays correct data for selected time filter"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Dashboard Chart Validation"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Capium365.RunnerFiles.Capium365_Dashboard_Runner@399c4be1]" started-at="2025-08-27T11:34:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-27T11:35:53 IST" duration-ms="61620" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify Top Earners "<Time Filter>" donut chart displays correct data for selected time filter"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Dashboard Chart Validation"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Capium365.RunnerFiles.Capium365_Dashboard_Runner@399c4be1]" started-at="2025-08-27T11:35:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-27T11:36:52 IST" duration-ms="59405" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify Sales Flow "<Time Filter>" donut chart displays correct data for selected time filter"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Dashboard Chart Validation"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Capium365.RunnerFiles.Capium365_Dashboard_Runner@399c4be1]" started-at="2025-08-27T11:36:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-27T11:38:43 IST" duration-ms="111401" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Click + and Select "Invoices""]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Dashboard Chart Validation"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Capium365.RunnerFiles.Capium365_Dashboard_Runner@399c4be1]" started-at="2025-08-27T11:38:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-27T11:39:27 IST" duration-ms="43494" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Default filter selection on Activity tab"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Dashboard Chart Validation"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Capium365.RunnerFiles.Capium365_Dashboard_Runner@399c4be1]" started-at="2025-08-27T11:39:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-27T11:40:37 IST" duration-ms="70310" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Filter Activity by "All Invoices""]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Dashboard Chart Validation"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Capium365.RunnerFiles.Capium365_Dashboard_Runner@399c4be1]" started-at="2025-08-27T11:40:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-27T11:41:44 IST" duration-ms="67273" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify activity logs are filtered correctly by time range"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Dashboard Chart Validation"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Capium365.RunnerFiles.Capium365_Dashboard_Runner@399c4be1]" started-at="2025-08-27T11:41:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-27T11:42:29 IST" duration-ms="44602" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Add a new bank under My Business settings"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Dashboard Chart Validation"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Capium365.RunnerFiles.Capium365_Dashboard_Runner@399c4be1]" started-at="2025-08-27T11:42:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-27T11:43:03 IST" duration-ms="34363" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify Announcement tab in dashborad"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Dashboard Chart Validation"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Capium365.RunnerFiles.Capium365_Dashboard_Runner@399c4be1]" started-at="2025-08-27T11:43:03 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-27T11:43:39 IST" duration-ms="35629" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify essential UI elements are present"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Dashboard Chart Validation"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Capium365.RunnerFiles.Capium365_Dashboard_Runner@399c4be1]" started-at="2025-08-27T11:43:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-27T11:44:31 IST" duration-ms="52100" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Add a new support ticket"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Dashboard Chart Validation"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Capium365.RunnerFiles.Capium365_Dashboard_Runner@399c4be1]" started-at="2025-08-27T11:44:31 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-27T11:45:07 IST" duration-ms="36188" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify Help tab in dashboard"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Dashboard Chart Validation"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Capium365.RunnerFiles.Capium365_Dashboard_Runner@399c4be1]" started-at="2025-08-27T11:45:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-27T11:45:45 IST" duration-ms="38108" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Open profile popup"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Dashboard Chart Validation"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Capium365.RunnerFiles.Capium365_Dashboard_Runner@399c4be1]" started-at="2025-08-27T11:45:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-27T11:47:20 IST" duration-ms="94516" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Sign out using the profile popup"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Dashboard Chart Validation"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Capium365.RunnerFiles.Capium365_Dashboard_Runner@399c4be1]" started-at="2025-08-27T11:47:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-27T11:47:56 IST" duration-ms="35881" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Select a different theme color "Purple""]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Dashboard Chart Validation"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Capium365.RunnerFiles.Capium365_Dashboard_Runner@399c4be1]" started-at="2025-08-27T11:47:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-27T11:48:31 IST" duration-ms="35329" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Select a different theme color "Dark Blue""]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Dashboard Chart Validation"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Capium365.RunnerFiles.Capium365_Dashboard_Runner@399c4be1]" started-at="2025-08-27T11:48:31 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-27T11:49:06 IST" duration-ms="34686" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Select a different theme color "Sky Blue""]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Dashboard Chart Validation"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Capium365.RunnerFiles.Capium365_Dashboard_Runner@399c4be1]" started-at="2025-08-27T11:49:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-27T11:49:41 IST" duration-ms="35337" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Select a different theme color "Blue""]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Dashboard Chart Validation"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Capium365.RunnerFiles.Capium365_Dashboard_Runner@399c4be1]" started-at="2025-08-27T11:49:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-27T11:50:17 IST" duration-ms="35843" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Select a different theme color "Teal""]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Dashboard Chart Validation"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Capium365.RunnerFiles.Capium365_Dashboard_Runner@399c4be1]" started-at="2025-08-27T11:50:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-27T11:50:53 IST" duration-ms="35548" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Select a different theme color "Yellow""]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Dashboard Chart Validation"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Capium365.RunnerFiles.Capium365_Dashboard_Runner@399c4be1]" started-at="2025-08-27T11:50:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-27T11:51:28 IST" duration-ms="34980" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Select a different theme color "Red""]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Dashboard Chart Validation"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Capium365.RunnerFiles.Capium365_Dashboard_Runner@399c4be1]" started-at="2025-08-27T11:51:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-27T11:52:27 IST" duration-ms="59086" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Select a different theme color "Black""]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Dashboard Chart Validation"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Capium365.RunnerFiles.Capium365_Dashboard_Runner@399c4be1]" started-at="2025-08-27T11:52:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-27T11:53:07 IST" duration-ms="40626" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Select a different theme color "Green""]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Dashboard Chart Validation"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h6[normalize-space()='365']"}
-  (Session info: chrome=139.0.7258.139)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+              <![CDATA[Error communicating with the remote browser. It may have died.
 Build info: version: '4.23.0', revision: '4df0a231af'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6069d405e86cfe9cf22d32d6faea2279, findElement {using=xpath, value=//h6[normalize-space()='365']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62966}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62966/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6069d405e86cfe9cf22d32d6faea2279]]>
+Command: [49ed36da353d737f9656536bdf45bf17, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.154, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55122}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55122/devtoo..., se:cdpVersion: 139.0.7258.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 49ed36da353d737f9656536bdf45bf17]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h6[normalize-space()='365']"}
-  (Session info: chrome=139.0.7258.139)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
 Build info: version: '4.23.0', revision: '4df0a231af'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6069d405e86cfe9cf22d32d6faea2279, findElement {using=xpath, value=//h6[normalize-space()='365']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62966}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62966/devtoo..., se:cdpVersion: 139.0.7258.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6069d405e86cfe9cf22d32d6faea2279
-at jdk.internal.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+Command: [49ed36da353d737f9656536bdf45bf17, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.154, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55122}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55122/devtoo..., se:cdpVersion: 139.0.7258.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 49ed36da353d737f9656536bdf45bf17
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy43.click(Unknown Source)
+at com.Capium365.Actions.ClientPortal_Users_Actions.clickonusercheckbox(ClientPortal_Users_Actions.java:197)
+at com.Capium365.StepDefination.ClientPotral_Users_Stepdefination.select_checkbox(ClientPotral_Users_Stepdefination.java:62)
+at ✽.Select Checkbox(file:///D:/Core%20Modules/Capium365/src/test/resources/Capium365FeatureFiles/ClientPortal_Users.feature:61)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:439)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
@@ -487,37 +76,92 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
-at com.Capium.Utilites.HelperClass.isElementPresent(HelperClass.java:243)
-at com.Capium365.Actions.LoginActions.clickCapium365ClientLogin(LoginActions.java:159)
-at com.Capium365.StepDefination.LoginStepDefination.click_on_capium365_client_login(LoginStepDefination.java:35)
-at ✽.Click on Capium365 Client login(file:///D:/Core%20Modules/Capium365/src/test/resources/Capium365FeatureFiles/Capium365_Dashboard.feature:6)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy43.click(Unknown Source)
+at com.Capium365.Actions.ClientPortal_Users_Actions.clickonusercheckbox(ClientPortal_Users_Actions.java:197)
+at com.Capium365.StepDefination.ClientPotral_Users_Stepdefination.select_checkbox(ClientPotral_Users_Stepdefination.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.net.ConnectException
+at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.nio.channels.ClosedChannelException
+at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+... 9 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Capium365.RunnerFiles.Capium365_Dashboard_Runner@399c4be1]" started-at="2025-08-27T11:53:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-27T11:53:56 IST" duration-ms="48294" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Close profile popup by clicking outside"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Dashboard Chart Validation"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.Capium365.RunnerFiles.Capium365_Dashboard_Runner@399c4be1]" started-at="2025-08-27T11:53:56 IST" name="tearDownClass" finished-at="2025-08-27T11:53:59 IST" duration-ms="3350" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.Capium365.RunnerFiles.ClientPortal_Users_Runner@399c4be1]" started-at="2025-09-17T19:27:35 IST" name="tearDownClass" finished-at="2025-09-17T19:27:36 IST" duration-ms="905" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- com.Capium365.RunnerFiles.Capium365_Dashboard_Runner -->
+      </class> <!-- com.Capium365.RunnerFiles.ClientPortal_Users_Runner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

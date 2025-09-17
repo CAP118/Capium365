@@ -18,7 +18,6 @@ public class LoginStepDefination {
 	public void launch_the_browser() {
 		StepTracker.setCurrentStep("Launch the browser");
 		Log.info("Launch browser successfully.", "Browser Launching");
-//Hooks.logInfo("Launch the browser");
 	}
 
 	@Given("User need to enter the Application Url")
@@ -27,7 +26,6 @@ public class LoginStepDefination {
 		HelperClass.openPage(url);
 		StepTracker.setCurrentStep("User need to enter the Application Url");
 		Log.info("User need to enter the Application Url", "URL entered successfully.");
-		//Hooks.logInfo("User need to enter the Application Url");
 	}
 
 	@Given("Click on Capium365 Client login")
@@ -35,7 +33,6 @@ public class LoginStepDefination {
 		loginpage.clickCapium365ClientLogin();
 		StepTracker.setCurrentStep("Click on Capium365 Client login");
 		Log.info("Click on Capium365 Client login", "Click");
-		//Hooks.logInfo("Click on Capium365 Client login");
 	}
 
 	@When("User Enter username")
@@ -44,7 +41,6 @@ public class LoginStepDefination {
 		loginpage.EnterUsername(username);
 		StepTracker.setCurrentStep("User Enter username and Password");
 		Log.info("Username and Password entered successfully.", "Credentials");
-
 	}
 
 	@Then("User Click on next button")
@@ -64,8 +60,7 @@ public class LoginStepDefination {
 
 	@Then("Click on verify account")
 	public void click_on_verify_account() throws InterruptedException {
-		String username = ConfigReader.getProperty("username");
-		loginpage.Clickonverifyaccount(username);
+		loginpage.Clickonverifyaccount();
 		Log.info("Login button clicked sucessfully", "Verifying");
 		StepTracker.setCurrentStep("Click on verify account");
 	}
@@ -78,4 +73,22 @@ public class LoginStepDefination {
 		Hooks.captureScreenshotBase64(HelperClass.getDriver(), Hooks.getScenarioTest(), "Redirect to365 client");
 
 	}
+	
+	@Given("Click on Accountant login")
+	public void click_on_accountant_login() {
+	    loginpage.ClickOnAccountant();
+	}
+	@When("Enter username and password")
+	public void enter_username_and_password() {
+	    loginpage.EnterUsernamePassword();
+	}
+	@When("click on Login Button")
+	public void click_on_login_button() {
+	    loginpage.ClickOnLogin();
+	}
+	@Then("Navigate to capium365 module")
+	public void navigate_to_capium365_module() {
+	    loginpage.navigateToCapium365Module();
+	}
+
 }
