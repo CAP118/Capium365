@@ -1,5 +1,6 @@
 package com.Capium365.RunnerFiles;
 
+import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
@@ -15,6 +16,6 @@ import io.cucumber.testng.CucumberOptions;
 	    monochrome = true
 	)
 
-public class ClientPortal_ManageTab_Runner {
+public class ClientPortal_ManageTab_Runner extends AbstractTestNGCucumberTests{
 
 }

@@ -33,6 +33,12 @@ public class LoginActions {
 	@FindBy(xpath="//button[normalize-space(text())='Login']")
 	private static WebElement Login;
 	
+	@FindBy(xpath="//a[normalize-space()='Capium 365']")
+	private static WebElement Capium365;
+	
+	@FindBy(xpath="(//a[@aria-haspopup='menu'])[3]")
+	private WebElement FivePointProfileIcon;
+	
 	WebDriverWait wait=HelperClass.getWait();
 	WebDriver driver=HelperClass.getDriver();
 
@@ -105,6 +111,12 @@ public void ClickOnLogin() {
 	            System.out.println("Navigated to Capium365 module from Homepage.");
 	            return;
 	        }
+	        
+	        if(isElementVisible(Capium365, wait)) {
+	        	HelperClass.safeClick(Capium365, null);
+	        	System.out.println("Navigated to Capium365 module from Old-Eco Homepage.");
+	        	return;
+	        }
 	        if (isElementVisible(loginLocators.C_icon_inside_modules, wait)) {
 	            loginLocators.C_icon_inside_modules.click();
 	            Thread.sleep(2000);
@@ -133,9 +145,8 @@ public void ClickOnLogin() {
 		try {
 			boolean logoutClicked = false;
 
-			// CASE 1: 5.0 Module Logout
-			if (isElementVisible(loginLocators.FivePointProfileIcon, shortWait)) {
-				HelperClass.clickWithRetry(loginLocators.FivePointProfileIcon, driver, shortWait);
+			if (isElementVisible(FivePointProfileIcon, shortWait)) {
+				HelperClass.clickWithRetry(FivePointProfileIcon, driver, shortWait);
 				Log.info("Clicked 5.0 Profile Icon.");
 
 				if (isElementVisible(loginLocators.SignoutFivePointZero, shortWait)) {
@@ -144,7 +155,6 @@ public void ClickOnLogin() {
 					logoutClicked = true;
 				}
 			}
-			// CASE 2: Homepage → Logo → Logout
 			else if (isElementVisible(loginLocators.Logo_in_homepage, shortWait)) {
 				HelperClass.clickWithRetry(loginLocators.Logo_in_homepage, driver, shortWait);
 				Log.info("Clicked homepage logo.");
@@ -155,7 +165,6 @@ public void ClickOnLogin() {
 					logoutClicked = true;
 				}
 			}
-			// CASE 3: Direct Logout Element
 			else if (isElementVisible(loginLocators.Logout_element, shortWait)) {
 				HelperClass.clickWithRetry(loginLocators.Logout_element, driver, shortWait);
 				Log.info("Clicked direct logout element.");

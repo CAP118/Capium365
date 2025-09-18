@@ -64,7 +64,7 @@ public class ClientPortal_Users_Actions {
 	@FindBy(xpath = "//input[@placeholder='Search']")
 	public WebElement SearchBar;
 
-	@FindBy(xpath = "(//input[@type='checkbox'])[2]")
+	@FindBy(xpath = "//table/tbody/tr[1]/td/div/mat-checkbox")
 	public WebElement Checkbox;
 
 	@FindBy(xpath = "//a[normalize-space()='Cancel']")
@@ -79,7 +79,7 @@ public class ClientPortal_Users_Actions {
 	@FindBy(xpath = "//span[normalize-space()='Yes']")
 	public WebElement Yesbutton;
 
-	@FindBy(xpath = "//p[normalize-space()='Archive']")
+	@FindBy(xpath = "//p[normalize-space()='Archive']/ancestor::button")
 	public WebElement FooterArchivebutton;
 
 	@FindBy(xpath = "//p[normalize-space()='Restore']")
@@ -193,8 +193,8 @@ public class ClientPortal_Users_Actions {
 	}
 
 	public void clickonusercheckbox() throws Throwable {
-		Thread.sleep(2000);
-		Checkbox.click();
+		HelperClass.safeClick(Checkbox, "Checkbox");
+		//Checkbox.click();
 	}
 
 	public void clickoncancelbutton() throws Throwable {

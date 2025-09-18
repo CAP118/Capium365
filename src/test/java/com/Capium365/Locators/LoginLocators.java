@@ -66,8 +66,7 @@ public class LoginLocators {
 	@CacheLookup
 	public WebElement Logout_inside_logo;
 	
-	@FindBy(xpath="(//a[@aria-haspopup='menu'])[3]")
-	public WebElement FivePointProfileIcon;
+	
 	
 	@FindBy(xpath="//a[normalize-space()='Sign Out']")
 	public WebElement SignoutFivePointZero;

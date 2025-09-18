@@ -55,7 +55,7 @@ Feature: Validate USers Menu
     And Click on Delete CheckBox
     And Click on DeleteYes button
     Then Validate Delete Message Should Display
-@Test
+
   Scenario: Validate Archive button
     When Click on Users Menu
     Then Select Checkbox

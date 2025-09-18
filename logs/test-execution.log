@@ -4851,3 +4851,938 @@ Session ID: 49ed36da353d737f9656536bdf45bf17
 2025-09-17 19:29:52       Failed to click: User Menu                                                                       
 2025-09-17 19:29:52       Captured screenshot for passed step: User need to enter the Application Url                           
 2025-09-17 19:30:05       Captured screenshot for failed step: User need to enter the Application Url                           
+2025-09-17 19:45:56       Driver setup successfully                                                                        
+2025-09-17 19:45:57       Scenario: Validate Archive button                                                                
+2025-09-17 19:45:57       Launch browser successfully.                                           user            Browser Launching
+2025-09-17 19:45:57       Captured screenshot for passed step: Launch the browser                                          
+2025-09-17 19:46:01       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-17 19:46:02       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 19:46:05       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 19:46:05       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 19:46:05       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 19:46:12       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 19:47:02       Driver setup successfully                                                                        
+2025-09-17 19:47:02       Scenario: Validate Archive button                                                                
+2025-09-17 19:47:02       Launch browser successfully.                                           user            Browser Launching
+2025-09-17 19:47:02       Captured screenshot for passed step: Launch the browser                                          
+2025-09-17 19:47:04       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-17 19:47:04       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 19:47:45       Driver setup successfully                                                                        
+2025-09-17 19:47:45       Scenario: Validate Archive button                                                                
+2025-09-17 19:47:45       Launch browser successfully.                                           user            Browser Launching
+2025-09-17 19:47:45       Captured screenshot for passed step: Launch the browser                                          
+2025-09-17 19:48:10       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-17 19:48:10       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 19:48:13       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 19:48:14       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 19:48:14       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 19:48:21       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 19:49:40       Failed to click: User Menu                                                                       
+2025-09-17 19:49:40       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 19:50:59       Failed to click: Checkbox                                                                        
+2025-09-17 19:50:59       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 19:51:12       Captured screenshot for failed step: User need to enter the Application Url                           
+2025-09-17 19:52:12       No logout element was clicked.                                                                   
+2025-09-17 19:52:12       Successfully logged out and redirected to login page.                                            
+2025-09-17 19:52:12       Browser closed.                                                                                  
+2025-09-17 19:56:23       Driver setup successfully                                                                        
+2025-09-17 19:56:24       Scenario: Validate Archive button                                                                
+2025-09-17 19:56:24       Launch browser successfully.                                           user            Browser Launching
+2025-09-17 19:56:24       Captured screenshot for passed step: Launch the browser                                          
+2025-09-17 19:56:28       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-17 19:56:28       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 19:56:30       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 19:56:31       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 19:56:31       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 19:56:39       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 19:56:45       Clicked: User Menu                                                                               
+2025-09-17 19:56:46       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 19:57:35       Failed to click: Checkbox                                                                        
+2025-09-17 19:57:35       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 19:57:48       Captured screenshot for failed step: User need to enter the Application Url                           
+2025-09-17 19:57:48       Clicked 5.0 Profile Icon.                                                                        
+2025-09-17 19:57:49       Clicked 5.0 Sign Out.                                                                            
+2025-09-17 19:57:49       Successfully redirected to login page after logout.                                              
+2025-09-17 19:57:49       Successfully logged out and redirected to login page.                                            
+2025-09-17 19:57:50       Browser closed.                                                                                  
+2025-09-17 22:09:32       Driver setup successfully                                                                        
+2025-09-17 22:09:32       Scenario: Validate Archive button                                                                
+2025-09-17 22:09:32       Launch browser successfully.                                           user            Browser Launching
+2025-09-17 22:09:32       Captured screenshot for passed step: Launch the browser                                          
+2025-09-17 22:09:40       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-17 22:09:40       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:09:45       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:09:46       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:09:46       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:09:56       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:10:05       Clicked: User Menu                                                                               
+2025-09-17 22:10:05       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:10:55       Failed to click: Checkbox                                                                        
+2025-09-17 22:10:55       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:11:08       Captured screenshot for failed step: User need to enter the Application Url                           
+2025-09-17 22:11:08       Clicked 5.0 Profile Icon.                                                                        
+2025-09-17 22:11:11       Clicked 5.0 Sign Out.                                                                            
+2025-09-17 22:11:11       Successfully redirected to login page after logout.                                              
+2025-09-17 22:11:11       Successfully logged out and redirected to login page.                                            
+2025-09-17 22:11:12       Browser closed.                                                                                  
+2025-09-17 22:13:48       Driver setup successfully                                                                        
+2025-09-17 22:13:49       Scenario: Validate Archive button                                                                
+2025-09-17 22:13:49       Launch browser successfully.                                           user            Browser Launching
+2025-09-17 22:13:49       Captured screenshot for passed step: Launch the browser                                          
+2025-09-17 22:14:08       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-17 22:14:08       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:14:22       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:14:23       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:14:23       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:15:09       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:15:21       Clicked: User Menu                                                                               
+2025-09-17 22:15:21       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:15:27       Clicked: Checkbox                                                                                
+2025-09-17 22:15:27       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:15:32       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:15:33       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:15:34       Clicked 5.0 Profile Icon.                                                                        
+2025-09-17 22:15:36       Clicked 5.0 Sign Out.                                                                            
+2025-09-17 22:15:36       Successfully redirected to login page after logout.                                              
+2025-09-17 22:15:36       Successfully logged out and redirected to login page.                                            
+2025-09-17 22:15:36       Browser closed.                                                                                  
+2025-09-17 22:15:58       Driver setup successfully                                                                        
+2025-09-17 22:15:59       Scenario: Validate Restore button                                                                
+2025-09-17 22:15:59       Launch browser successfully.                                           user            Browser Launching
+2025-09-17 22:15:59       Captured screenshot for passed step: Launch the browser                                          
+2025-09-17 22:16:05       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-17 22:16:06       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:16:10       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:16:11       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:16:11       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:16:18       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:16:26       Clicked: User Menu                                                                               
+2025-09-17 22:16:26       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:16:32       Clicked: Checkbox                                                                                
+2025-09-17 22:16:32       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:16:37       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:16:38       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:16:39       Clicked 5.0 Profile Icon.                                                                        
+2025-09-17 22:16:41       Clicked 5.0 Sign Out.                                                                            
+2025-09-17 22:16:41       Successfully redirected to login page after logout.                                              
+2025-09-17 22:16:41       Successfully logged out and redirected to login page.                                            
+2025-09-17 22:16:41       Browser closed.                                                                                  
+2025-09-17 22:25:24       Driver setup successfully                                                                        
+2025-09-17 22:25:24       Scenario: Verify Add New Client Page                                                             
+2025-09-17 22:25:24       Launch browser successfully.                                           user            Browser Launching
+2025-09-17 22:25:24       Captured screenshot for passed step: Launch the browser                                          
+2025-09-17 22:25:28       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-17 22:25:29       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:25:32       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:25:33       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:25:34       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:25:56       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:26:06       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:26:07       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:26:08       Clicked 5.0 Profile Icon.                                                                        
+2025-09-17 22:26:11       Clicked 5.0 Sign Out.                                                                            
+2025-09-17 22:26:11       Successfully redirected to login page after logout.                                              
+2025-09-17 22:26:11       Successfully logged out and redirected to login page.                                            
+2025-09-17 22:26:12       Browser closed.                                                                                  
+2025-09-17 22:26:33       Driver setup successfully                                                                        
+2025-09-17 22:26:33       Scenario: Verify Add New Client Page                                                             
+2025-09-17 22:26:33       Launch browser successfully.                                           user            Browser Launching
+2025-09-17 22:26:33       Captured screenshot for passed step: Launch the browser                                          
+2025-09-17 22:26:40       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-17 22:26:40       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:26:44       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:26:45       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:26:46       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:26:56       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:27:06       Captured screenshot for failed step: User need to enter the Application Url                           
+2025-09-17 22:27:42       Driver setup successfully                                                                        
+2025-09-17 22:27:43       Scenario: Verify Add New Client Page                                                             
+2025-09-17 22:27:43       Launch browser successfully.                                           user            Browser Launching
+2025-09-17 22:27:43       Captured screenshot for passed step: Launch the browser                                          
+2025-09-17 22:28:13       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-17 22:28:13       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:28:16       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:28:17       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:28:18       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:28:25       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:28:31       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:28:35       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:28:45       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:28:46       Clicked 5.0 Profile Icon.                                                                        
+2025-09-17 22:28:48       Clicked 5.0 Sign Out.                                                                            
+2025-09-17 22:28:48       Successfully redirected to login page after logout.                                              
+2025-09-17 22:28:48       Successfully logged out and redirected to login page.                                            
+2025-09-17 22:28:48       Browser closed.                                                                                  
+2025-09-17 22:29:29       Driver setup successfully                                                                        
+2025-09-17 22:29:29       Scenario: Verify Save and Send Invite to Threesixty                                              
+2025-09-17 22:29:29       Launch browser successfully.                                           user            Browser Launching
+2025-09-17 22:29:29       Captured screenshot for passed step: Launch the browser                                          
+2025-09-17 22:29:35       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-17 22:29:35       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:29:38       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:29:39       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:29:40       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:29:48       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:29:54       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:29:57       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:30:00       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:30:10       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:30:11       Clicked 5.0 Profile Icon.                                                                        
+2025-09-17 22:30:13       Clicked 5.0 Sign Out.                                                                            
+2025-09-17 22:30:13       Successfully redirected to login page after logout.                                              
+2025-09-17 22:30:13       Successfully logged out and redirected to login page.                                            
+2025-09-17 22:30:13       Browser closed.                                                                                  
+2025-09-17 22:37:02       Driver setup successfully                                                                        
+2025-09-17 22:37:02       Scenario: Verify Save and Send Invite to Threesixty                                              
+2025-09-17 22:37:02       Launch browser successfully.                                           user            Browser Launching
+2025-09-17 22:37:03       Captured screenshot for passed step: Launch the browser                                          
+2025-09-17 22:37:05       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-17 22:37:05       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:37:08       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:37:10       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:37:11       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:37:25       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:37:31       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:37:39       Typed in Company Name: Bottlsg67_1758128853192                                                   
+2025-09-17 22:37:45       Typed in Name: sportssmuikj_1758128853192                                                        
+2025-09-17 22:37:51       Typed in Email: sporysuknf54@gmail.com                                                           
+2025-09-17 22:37:56       Clicked: Save And Exit                                                                           
+2025-09-17 22:37:57       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:38:00       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:38:10       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:38:10       Clicked 5.0 Profile Icon.                                                                        
+2025-09-17 22:38:12       Clicked 5.0 Sign Out.                                                                            
+2025-09-17 22:38:12       Successfully redirected to login page after logout.                                              
+2025-09-17 22:38:12       Successfully logged out and redirected to login page.                                            
+2025-09-17 22:38:13       Browser closed.                                                                                  
+2025-09-17 22:44:38       Driver setup successfully                                                                        
+2025-09-17 22:44:39       Scenario: Verify Save and Send Invite to Threesixty                                              
+2025-09-17 22:44:39       Launch browser successfully.                                           user            Browser Launching
+2025-09-17 22:44:39       Captured screenshot for passed step: Launch the browser                                          
+2025-09-17 22:44:42       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-17 22:44:42       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:44:45       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:44:46       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:44:47       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:44:58       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:45:04       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:45:12       Typed in Company Name: Bottlsg67_1758129306286                                                   
+2025-09-17 22:45:18       Typed in Name: sportssmuikj_1758129306286                                                        
+2025-09-17 22:45:24       Typed in Email: sporysuknf_1758129306295@gmail.com                                               
+2025-09-17 22:45:29       Clicked: Save And Exit                                                                           
+2025-09-17 22:45:30       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:45:40       Captured screenshot for failed step: User need to enter the Application Url                           
+2025-09-17 22:45:41       Clicked 5.0 Profile Icon.                                                                        
+2025-09-17 22:45:42       Clicked 5.0 Sign Out.                                                                            
+2025-09-17 22:45:42       Successfully redirected to login page after logout.                                              
+2025-09-17 22:45:42       Successfully logged out and redirected to login page.                                            
+2025-09-17 22:45:43       Browser closed.                                                                                  
+2025-09-17 22:48:57       Driver setup successfully                                                                        
+2025-09-17 22:48:58       Scenario: Verify Save and Send Invite to Threesixty                                              
+2025-09-17 22:48:58       Launch browser successfully.                                           user            Browser Launching
+2025-09-17 22:48:58       Captured screenshot for passed step: Launch the browser                                          
+2025-09-17 22:49:01       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-17 22:49:01       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:49:05       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:49:06       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:49:06       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:49:15       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:49:20       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:49:28       Typed in Company Name: Bottlsg67_1758129562486                                                   
+2025-09-17 22:49:34       Typed in Name: sportssmuikj_1758129562486                                                        
+2025-09-17 22:49:40       Typed in Email: sporysuknf_1758129562486@gmail.com                                               
+2025-09-17 22:49:45       Clicked: Save And Exit                                                                           
+2025-09-17 22:49:46       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:51:05       Failed to click: Save and Send Invite to 365                                                     
+2025-09-17 22:52:24       Failed to click: Proceed Invite                                                                  
+2025-09-17 22:52:25       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:52:25       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:52:25       Clicked 5.0 Profile Icon.                                                                        
+2025-09-17 22:52:28       Clicked 5.0 Sign Out.                                                                            
+2025-09-17 22:52:28       Successfully redirected to login page after logout.                                              
+2025-09-17 22:52:28       Successfully logged out and redirected to login page.                                            
+2025-09-17 22:52:29       Browser closed.                                                                                  
+2025-09-17 22:53:26       Driver setup successfully                                                                        
+2025-09-17 22:53:27       Scenario: Verify Save and Send Invite to Threesixty                                              
+2025-09-17 22:53:27       Launch browser successfully.                                           user            Browser Launching
+2025-09-17 22:53:27       Captured screenshot for passed step: Launch the browser                                          
+2025-09-17 22:53:33       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-17 22:53:34       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:53:37       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:53:38       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:53:39       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:54:31       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:54:52       Captured screenshot for failed step: User need to enter the Application Url                           
+2025-09-17 22:55:36       Clicked direct logout element.                                                                   
+2025-09-17 22:55:56       Timeout: Login page not detected after logout.                                                   
+2025-09-17 22:55:57       Successfully logged out and redirected to login page.                                            
+2025-09-17 22:55:57       Browser closed.                                                                                  
+2025-09-17 22:57:36       Driver setup successfully                                                                        
+2025-09-17 22:57:36       Scenario: Verify Save and Send Invite to Threesixty                                              
+2025-09-17 22:57:36       Launch browser successfully.                                           user            Browser Launching
+2025-09-17 22:57:36       Captured screenshot for passed step: Launch the browser                                          
+2025-09-17 22:57:40       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-17 22:57:40       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:57:43       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:57:44       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:57:45       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:57:52       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:57:57       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:58:05       Typed in Company Name: Bottlsg67_1758130079220                                                   
+2025-09-17 22:58:11       Typed in Name: sportssmuikj_1758130079220                                                        
+2025-09-17 22:58:17       Typed in Email: sporysuknf_1758130079220@gmail.com                                               
+2025-09-17 22:58:17       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:58:23       Clicked: Save and Send Invite to 365                                                             
+2025-09-17 22:58:28       Clicked: Proceed Invite                                                                          
+2025-09-17 22:58:29       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:58:39       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:58:39       Clicked 5.0 Profile Icon.                                                                        
+2025-09-17 22:58:41       Clicked 5.0 Sign Out.                                                                            
+2025-09-17 22:58:41       Successfully redirected to login page after logout.                                              
+2025-09-17 22:58:41       Successfully logged out and redirected to login page.                                            
+2025-09-17 22:58:42       Browser closed.                                                                                  
+2025-09-17 22:59:13       Driver setup successfully                                                                        
+2025-09-17 22:59:14       Scenario: Validate SearchClient and GotoThreeSixtyFive                                           
+2025-09-17 22:59:14       Launch browser successfully.                                           user            Browser Launching
+2025-09-17 22:59:14       Captured screenshot for passed step: Launch the browser                                          
+2025-09-17 22:59:17       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-17 22:59:17       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:59:21       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:59:22       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:59:22       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:59:31       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 22:59:44       Hovered over element located by: By.xpath: //table[@aria-describedby='Invited to 365 list Table']/tbody/tr[1]                           
+2025-09-17 22:59:57       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:00:03       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:00:04       Clicked 5.0 Profile Icon.                                                                        
+2025-09-17 23:00:24       No logout element was clicked.                                                                   
+2025-09-17 23:00:24       Successfully logged out and redirected to login page.                                            
+2025-09-17 23:00:24       Browser closed.                                                                                  
+2025-09-17 23:12:13       Driver setup successfully                                                                        
+2025-09-17 23:12:14       Scenario: Validate SearchClient and GotoThreeSixtyFive                                           
+2025-09-17 23:12:14       Launch browser successfully.                                           user            Browser Launching
+2025-09-17 23:12:14       Captured screenshot for passed step: Launch the browser                                          
+2025-09-17 23:12:17       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-17 23:12:18       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:12:21       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:12:22       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:12:22       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:12:31       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:12:36       Typed in Search: Bank_Rule_By_LImited_Client                                                     
+2025-09-17 23:12:39       Hovered over element located by: By.xpath: //table[@aria-describedby='Invited to 365 list Table']/tbody/tr[1]                           
+2025-09-17 23:12:44       Clicked: Go To 365                                                                               
+2025-09-17 23:12:45       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:13:01       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:13:02       Clicked 5.0 Profile Icon.                                                                        
+2025-09-17 23:13:22       No logout element was clicked.                                                                   
+2025-09-17 23:13:22       Successfully logged out and redirected to login page.                                            
+2025-09-17 23:13:22       Browser closed.                                                                                  
+2025-09-17 23:15:04       Driver setup successfully                                                                        
+2025-09-17 23:15:05       Scenario: Validate MoreVertbutton In Client Main Page                                            
+2025-09-17 23:15:05       Launch browser successfully.                                           user            Browser Launching
+2025-09-17 23:15:05       Captured screenshot for passed step: Launch the browser                                          
+2025-09-17 23:15:10       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-17 23:15:10       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:15:14       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:15:15       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:15:16       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:15:26       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:15:36       Hovered over element located by: By.xpath: //table/tbody/tr[1]                                   
+2025-09-17 23:15:36       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:15:37       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:15:42       Clicked 5.0 Profile Icon.                                                                        
+2025-09-17 23:15:44       Clicked 5.0 Sign Out.                                                                            
+2025-09-17 23:15:44       Successfully redirected to login page after logout.                                              
+2025-09-17 23:15:44       Successfully logged out and redirected to login page.                                            
+2025-09-17 23:15:44       Browser closed.                                                                                  
+2025-09-17 23:16:08       Driver setup successfully                                                                        
+2025-09-17 23:16:08       Scenario: Validate Edit Client Manage Tab                                                        
+2025-09-17 23:16:08       Launch browser successfully.                                           user            Browser Launching
+2025-09-17 23:16:09       Captured screenshot for passed step: Launch the browser                                          
+2025-09-17 23:16:11       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-17 23:16:12       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:16:15       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:16:16       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:16:16       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:16:26       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:16:36       Hovered over element located by: By.xpath: //table/tbody/tr[1]                                   
+2025-09-17 23:16:37       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:16:38       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:16:39       Clicked 5.0 Profile Icon.                                                                        
+2025-09-17 23:16:41       Clicked 5.0 Sign Out.                                                                            
+2025-09-17 23:16:41       Successfully redirected to login page after logout.                                              
+2025-09-17 23:16:41       Successfully logged out and redirected to login page.                                            
+2025-09-17 23:16:42       Browser closed.                                                                                  
+2025-09-17 23:17:08       Driver setup successfully                                                                        
+2025-09-17 23:17:09       Scenario: Validate Archive button                                                                
+2025-09-17 23:17:09       Launch browser successfully.                                           user            Browser Launching
+2025-09-17 23:17:09       Captured screenshot for passed step: Launch the browser                                          
+2025-09-17 23:17:13       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-17 23:17:13       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:17:18       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:17:19       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:17:19       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:17:28       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:17:35       Hovered over element located by: By.xpath: //table/tbody/tr[1]                                   
+2025-09-17 23:17:36       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:17:36       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:17:42       Clicked 5.0 Profile Icon.                                                                        
+2025-09-17 23:17:44       Clicked 5.0 Sign Out.                                                                            
+2025-09-17 23:17:44       Successfully redirected to login page after logout.                                              
+2025-09-17 23:17:44       Successfully logged out and redirected to login page.                                            
+2025-09-17 23:17:44       Browser closed.                                                                                  
+2025-09-17 23:18:18       Driver setup successfully                                                                        
+2025-09-17 23:18:18       Scenario: Validate Delete button                                                                 
+2025-09-17 23:18:18       Launch browser successfully.                                           user            Browser Launching
+2025-09-17 23:18:19       Captured screenshot for passed step: Launch the browser                                          
+2025-09-17 23:18:21       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-17 23:18:22       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:18:26       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:18:27       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:18:27       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:18:39       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:18:50       Hovered over element located by: By.xpath: //table/tbody/tr[1]                                   
+2025-09-17 23:18:54       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:18:55       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:18:57       Clicked 5.0 Profile Icon.                                                                        
+2025-09-17 23:18:59       Clicked 5.0 Sign Out.                                                                            
+2025-09-17 23:18:59       Successfully redirected to login page after logout.                                              
+2025-09-17 23:18:59       Successfully logged out and redirected to login page.                                            
+2025-09-17 23:19:00       Browser closed.                                                                                  
+2025-09-17 23:19:26       Driver setup successfully                                                                        
+2025-09-17 23:19:26       Scenario: Validate Import button by Morevert button                                              
+2025-09-17 23:19:26       Launch browser successfully.                                           user            Browser Launching
+2025-09-17 23:19:26       Captured screenshot for passed step: Launch the browser                                          
+2025-09-17 23:19:35       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-17 23:19:35       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:19:38       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:19:39       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:19:39       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:19:48       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:19:58       Hovered over element located by: By.xpath: //table/tbody/tr[1]                                   
+2025-09-17 23:19:59       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:19:59       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:20:00       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:20:05       Clicked 5.0 Profile Icon.                                                                        
+2025-09-17 23:20:07       Clicked 5.0 Sign Out.                                                                            
+2025-09-17 23:20:07       Successfully redirected to login page after logout.                                              
+2025-09-17 23:20:07       Successfully logged out and redirected to login page.                                            
+2025-09-17 23:20:08       Browser closed.                                                                                  
+2025-09-17 23:21:01       Driver setup successfully                                                                        
+2025-09-17 23:21:02       Scenario: Validate All365 Status dropdown                                                        
+2025-09-17 23:21:02       Launch browser successfully.                                           user            Browser Launching
+2025-09-17 23:21:02       Captured screenshot for passed step: Launch the browser                                          
+2025-09-17 23:21:06       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-17 23:21:06       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:21:09       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:21:10       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:21:11       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:21:19       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:21:56       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:21:56       Clicked 5.0 Profile Icon.                                                                        
+2025-09-17 23:21:58       Clicked 5.0 Sign Out.                                                                            
+2025-09-17 23:21:58       Successfully redirected to login page after logout.                                              
+2025-09-17 23:21:58       Successfully logged out and redirected to login page.                                            
+2025-09-17 23:21:58       Browser closed.                                                                                  
+2025-09-17 23:22:30       Driver setup successfully                                                                        
+2025-09-17 23:22:31       Scenario: Vaidate AllStatus dropdown                                                             
+2025-09-17 23:22:31       Launch browser successfully.                                           user            Browser Launching
+2025-09-17 23:22:31       Captured screenshot for passed step: Launch the browser                                          
+2025-09-17 23:22:36       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-17 23:22:36       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:22:39       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:22:40       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:22:41       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:22:50       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:23:18       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:23:18       Clicked 5.0 Profile Icon.                                                                        
+2025-09-17 23:23:20       Clicked 5.0 Sign Out.                                                                            
+2025-09-17 23:23:20       Successfully redirected to login page after logout.                                              
+2025-09-17 23:23:20       Successfully logged out and redirected to login page.                                            
+2025-09-17 23:23:20       Browser closed.                                                                                  
+2025-09-17 23:23:44       Driver setup successfully                                                                        
+2025-09-17 23:23:45       Scenario: Validate Contact Name Poup                                                             
+2025-09-17 23:23:45       Launch browser successfully.                                           user            Browser Launching
+2025-09-17 23:23:45       Captured screenshot for passed step: Launch the browser                                          
+2025-09-17 23:23:49       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-17 23:23:49       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:23:57       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:23:58       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:23:59       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:24:10       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:24:18       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:24:18       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:24:24       Clicked 5.0 Profile Icon.                                                                        
+2025-09-17 23:24:26       Clicked 5.0 Sign Out.                                                                            
+2025-09-17 23:24:26       Successfully redirected to login page after logout.                                              
+2025-09-17 23:24:26       Successfully logged out and redirected to login page.                                            
+2025-09-17 23:24:26       Browser closed.                                                                                  
+2025-09-17 23:25:59       Driver setup successfully                                                                        
+2025-09-17 23:26:00       Scenario: Validate Clients  Imports                                                              
+2025-09-17 23:26:00       Launch browser successfully.                                           user            Browser Launching
+2025-09-17 23:26:00       Captured screenshot for passed step: Launch the browser                                          
+2025-09-17 23:26:06       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-17 23:26:06       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:26:09       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:26:10       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:26:10       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:26:20       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:26:28       Clicked: null                                                                                    
+2025-09-17 23:26:28       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:27:20       Failed to click: null                                                                            
+2025-09-17 23:27:41       Captured screenshot for failed step: User need to enter the Application Url                           
+2025-09-17 23:27:41       Clicked 5.0 Profile Icon.                                                                        
+2025-09-17 23:27:49       Clicked 5.0 Sign Out.                                                                            
+2025-09-17 23:28:09       Timeout: Login page not detected after logout.                                                   
+2025-09-17 23:28:09       Successfully logged out and redirected to login page.                                            
+2025-09-17 23:28:10       Browser closed.                                                                                  
+2025-09-17 23:31:56       Driver setup successfully                                                                        
+2025-09-17 23:31:56       Scenario: Validate Clients  Imports                                                              
+2025-09-17 23:31:56       Launch browser successfully.                                           user            Browser Launching
+2025-09-17 23:31:56       Captured screenshot for passed step: Launch the browser                                          
+2025-09-17 23:31:59       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-17 23:32:00       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:32:03       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:32:04       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:32:05       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:32:12       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:32:19       Clicked: null                                                                                    
+2025-09-17 23:32:19       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:32:25       Clicked: null                                                                                    
+2025-09-17 23:32:25       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:32:29       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:32:39       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:32:39       Clicked 5.0 Profile Icon.                                                                        
+2025-09-17 23:32:41       Clicked 5.0 Sign Out.                                                                            
+2025-09-17 23:32:41       Successfully redirected to login page after logout.                                              
+2025-09-17 23:32:41       Successfully logged out and redirected to login page.                                            
+2025-09-17 23:32:42       Browser closed.                                                                                  
+2025-09-17 23:36:47       Driver setup successfully                                                                        
+2025-09-17 23:36:48       Scenario: Validate Import Client Should Display in Client Main Grid                              
+2025-09-17 23:36:48       Launch browser successfully.                                           user            Browser Launching
+2025-09-17 23:36:48       Captured screenshot for passed step: Launch the browser                                          
+2025-09-17 23:36:51       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-17 23:36:51       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:36:54       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:36:55       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:36:55       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:37:08       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:37:51       Driver setup successfully                                                                        
+2025-09-17 23:37:51       Scenario: Validate Import Client Should Display in Client Main Grid                              
+2025-09-17 23:37:51       Launch browser successfully.                                           user            Browser Launching
+2025-09-17 23:37:51       Captured screenshot for passed step: Launch the browser                                          
+2025-09-17 23:37:57       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-17 23:37:57       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:38:01       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:38:02       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:38:02       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:38:19       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:38:26       Clicked: null                                                                                    
+2025-09-17 23:38:26       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:38:32       Clicked: null                                                                                    
+2025-09-17 23:38:32       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:38:36       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:38:49       Captured screenshot for failed step: User need to enter the Application Url                           
+2025-09-17 23:38:49       Clicked 5.0 Profile Icon.                                                                        
+2025-09-17 23:38:51       Clicked 5.0 Sign Out.                                                                            
+2025-09-17 23:38:51       Successfully redirected to login page after logout.                                              
+2025-09-17 23:38:51       Successfully logged out and redirected to login page.                                            
+2025-09-17 23:38:52       Browser closed.                                                                                  
+2025-09-17 23:42:08       Driver setup successfully                                                                        
+2025-09-17 23:42:08       Scenario: Validate Import Client Should Display in Client Main Grid                              
+2025-09-17 23:42:08       Launch browser successfully.                                           user            Browser Launching
+2025-09-17 23:42:09       Captured screenshot for passed step: Launch the browser                                          
+2025-09-17 23:42:11       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-17 23:42:11       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:42:14       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:42:15       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:42:16       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:42:23       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:42:31       Clicked: null                                                                                    
+2025-09-17 23:42:31       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:42:36       Clicked: null                                                                                    
+2025-09-17 23:42:37       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:42:45       Clicked: Next button                                                                             
+2025-09-17 23:42:47       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:43:00       Captured screenshot for failed step: User need to enter the Application Url                           
+2025-09-17 23:43:00       Clicked 5.0 Profile Icon.                                                                        
+2025-09-17 23:43:02       Clicked 5.0 Sign Out.                                                                            
+2025-09-17 23:43:02       Successfully redirected to login page after logout.                                              
+2025-09-17 23:43:02       Successfully logged out and redirected to login page.                                            
+2025-09-17 23:43:03       Browser closed.                                                                                  
+2025-09-17 23:47:27       Driver setup successfully                                                                        
+2025-09-17 23:47:28       Scenario: Validate Import Client Should Display in Client Main Grid                              
+2025-09-17 23:47:28       Launch browser successfully.                                           user            Browser Launching
+2025-09-17 23:47:28       Captured screenshot for passed step: Launch the browser                                          
+2025-09-17 23:47:31       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-17 23:47:31       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:47:34       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:47:35       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:47:35       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:47:44       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:47:52       Clicked: null                                                                                    
+2025-09-17 23:47:52       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:47:58       Clicked: null                                                                                    
+2025-09-17 23:47:58       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:48:07       Clicked: Next button                                                                             
+2025-09-17 23:48:08       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:48:57       Failed to click: Import Success                                                                  
+2025-09-17 23:50:17       Driver setup successfully                                                                        
+2025-09-17 23:50:17       Scenario: Validate Import Client Should Display in Client Main Grid                              
+2025-09-17 23:50:17       Launch browser successfully.                                           user            Browser Launching
+2025-09-17 23:50:18       Captured screenshot for passed step: Launch the browser                                          
+2025-09-17 23:50:21       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-17 23:50:21       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:50:24       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:50:25       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:50:25       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:50:33       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:50:41       Clicked: null                                                                                    
+2025-09-17 23:50:41       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:50:46       Clicked: null                                                                                    
+2025-09-17 23:50:52       Clicked: Next button                                                                             
+2025-09-17 23:50:52       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:51:01       Clicked: Next button                                                                             
+2025-09-17 23:51:01       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:51:07       Clicked: Import Success                                                                          
+2025-09-17 23:51:12       Clicked: Save and Exit                                                                           
+2025-09-17 23:51:12       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:51:13       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:51:14       Clicked 5.0 Profile Icon.                                                                        
+2025-09-17 23:51:15       Clicked 5.0 Sign Out.                                                                            
+2025-09-17 23:51:15       Successfully redirected to login page after logout.                                              
+2025-09-17 23:51:15       Successfully logged out and redirected to login page.                                            
+2025-09-17 23:51:16       Browser closed.                                                                                  
+2025-09-17 23:51:47       Driver setup successfully                                                                        
+2025-09-17 23:51:48       Scenario: Validate Duplicate ImportClient                                                        
+2025-09-17 23:51:48       Launch browser successfully.                                           user            Browser Launching
+2025-09-17 23:51:48       Captured screenshot for passed step: Launch the browser                                          
+2025-09-17 23:51:51       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-17 23:51:52       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:51:54       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:51:55       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:51:56       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:52:05       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:52:13       Clicked: null                                                                                    
+2025-09-17 23:52:14       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:52:19       Clicked: null                                                                                    
+2025-09-17 23:52:25       Clicked: Next button                                                                             
+2025-09-17 23:52:25       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:52:33       Clicked: Next button                                                                             
+2025-09-17 23:52:34       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:53:53       Failed to click: Next button                                                                     
+2025-09-17 23:53:53       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:53:53       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:53:54       Clicked 5.0 Profile Icon.                                                                        
+2025-09-17 23:53:56       Clicked 5.0 Sign Out.                                                                            
+2025-09-17 23:53:56       Successfully redirected to login page after logout.                                              
+2025-09-17 23:53:56       Successfully logged out and redirected to login page.                                            
+2025-09-17 23:53:56       Browser closed.                                                                                  
+2025-09-17 23:56:09       Driver setup successfully                                                                        
+2025-09-17 23:56:10       Scenario: Validate Duplicate ImportClient                                                        
+2025-09-17 23:56:10       Launch browser successfully.                                           user            Browser Launching
+2025-09-17 23:56:10       Captured screenshot for passed step: Launch the browser                                          
+2025-09-17 23:56:14       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-17 23:56:14       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:56:17       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:56:18       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:56:19       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:56:27       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:56:35       Clicked: null                                                                                    
+2025-09-17 23:56:36       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:56:41       Clicked: null                                                                                    
+2025-09-17 23:56:47       Clicked: Next button                                                                             
+2025-09-17 23:56:47       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:56:55       Clicked: Next button                                                                             
+2025-09-17 23:56:56       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:58:15       Failed to click: Next button                                                                     
+2025-09-17 23:58:15       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:58:15       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:58:16       Clicked 5.0 Profile Icon.                                                                        
+2025-09-17 23:58:20       Clicked 5.0 Sign Out.                                                                            
+2025-09-17 23:58:20       Successfully redirected to login page after logout.                                              
+2025-09-17 23:58:20       Successfully logged out and redirected to login page.                                            
+2025-09-17 23:58:21       Browser closed.                                                                                  
+2025-09-17 23:59:18       Driver setup successfully                                                                        
+2025-09-17 23:59:18       Scenario: Validate Duplicate ImportClient                                                        
+2025-09-17 23:59:18       Launch browser successfully.                                           user            Browser Launching
+2025-09-17 23:59:18       Captured screenshot for passed step: Launch the browser                                          
+2025-09-17 23:59:21       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-17 23:59:21       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:59:24       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:59:25       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:59:25       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:59:33       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:59:43       Clicked: null                                                                                    
+2025-09-17 23:59:43       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-17 23:59:49       Clicked: null                                                                                    
+2025-09-17 23:59:55       Clicked: Next button                                                                             
+2025-09-17 23:59:55       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:00:03       Clicked: Next button                                                                             
+2025-09-18 00:00:04       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:01:23       Failed to click: Next button                                                                     
+2025-09-18 00:01:23       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:01:23       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:01:24       Clicked 5.0 Profile Icon.                                                                        
+2025-09-18 00:01:26       Clicked 5.0 Sign Out.                                                                            
+2025-09-18 00:01:26       Successfully redirected to login page after logout.                                              
+2025-09-18 00:01:26       Successfully logged out and redirected to login page.                                            
+2025-09-18 00:01:27       Browser closed.                                                                                  
+2025-09-18 00:02:18       Driver setup successfully                                                                        
+2025-09-18 00:02:18       Scenario: Validate Duplicate ImportClient                                                        
+2025-09-18 00:02:18       Launch browser successfully.                                           user            Browser Launching
+2025-09-18 00:02:18       Captured screenshot for passed step: Launch the browser                                          
+2025-09-18 00:02:21       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-18 00:02:21       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:02:25       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:02:26       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:02:26       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:02:35       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:02:42       Clicked: null                                                                                    
+2025-09-18 00:02:43       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:02:48       Clicked: null                                                                                    
+2025-09-18 00:02:54       Clicked: Next button                                                                             
+2025-09-18 00:02:54       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:03:02       Clicked: Next button                                                                             
+2025-09-18 00:03:03       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:04:22       Failed to click: Next button                                                                     
+2025-09-18 00:04:22       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:04:22       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:04:23       Clicked 5.0 Profile Icon.                                                                        
+2025-09-18 00:04:26       Clicked 5.0 Sign Out.                                                                            
+2025-09-18 00:04:26       Successfully redirected to login page after logout.                                              
+2025-09-18 00:04:26       Successfully logged out and redirected to login page.                                            
+2025-09-18 00:04:27       Browser closed.                                                                                  
+2025-09-18 00:04:57       Driver setup successfully                                                                        
+2025-09-18 00:04:58       Scenario: Validate Users  Imports                                                                
+2025-09-18 00:04:58       Launch browser successfully.                                           user            Browser Launching
+2025-09-18 00:04:58       Captured screenshot for passed step: Launch the browser                                          
+2025-09-18 00:05:24       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-18 00:05:24       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:05:27       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:05:28       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:05:28       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:05:39       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:05:47       Clicked: null                                                                                    
+2025-09-18 00:05:47       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:05:55       Clicked: Next button                                                                             
+2025-09-18 00:05:55       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:05:58       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:06:09       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:06:09       Clicked 5.0 Profile Icon.                                                                        
+2025-09-18 00:06:11       Clicked 5.0 Sign Out.                                                                            
+2025-09-18 00:06:11       Successfully redirected to login page after logout.                                              
+2025-09-18 00:06:11       Successfully logged out and redirected to login page.                                            
+2025-09-18 00:06:12       Browser closed.                                                                                  
+2025-09-18 00:14:16       Driver setup successfully                                                                        
+2025-09-18 00:14:16       Scenario: Validate Users  Imports                                                                
+2025-09-18 00:14:16       Launch browser successfully.                                           user            Browser Launching
+2025-09-18 00:14:17       Captured screenshot for passed step: Launch the browser                                          
+2025-09-18 00:14:21       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-18 00:14:22       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:14:25       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:14:26       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:14:26       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:14:35       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:14:42       Clicked: null                                                                                    
+2025-09-18 00:14:42       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:14:50       Clicked: Next button                                                                             
+2025-09-18 00:14:50       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:14:59       Clicked: Next button                                                                             
+2025-09-18 00:14:59       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:15:01       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:15:01       Clicked 5.0 Profile Icon.                                                                        
+2025-09-18 00:15:03       Clicked 5.0 Sign Out.                                                                            
+2025-09-18 00:15:03       Successfully redirected to login page after logout.                                              
+2025-09-18 00:15:03       Successfully logged out and redirected to login page.                                            
+2025-09-18 00:15:03       Browser closed.                                                                                  
+2025-09-18 00:16:50       Driver setup successfully                                                                        
+2025-09-18 00:16:50       Scenario: Validate Users  Imports                                                                
+2025-09-18 00:16:50       Launch browser successfully.                                           user            Browser Launching
+2025-09-18 00:16:50       Captured screenshot for passed step: Launch the browser                                          
+2025-09-18 00:16:55       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-18 00:16:55       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:16:58       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:16:59       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:17:00       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:17:09       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:17:18       Clicked: null                                                                                    
+2025-09-18 00:17:18       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:17:20       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:17:31       Captured screenshot for failed step: User need to enter the Application Url                           
+2025-09-18 00:17:31       Clicked 5.0 Profile Icon.                                                                        
+2025-09-18 00:17:33       Clicked 5.0 Sign Out.                                                                            
+2025-09-18 00:17:33       Successfully redirected to login page after logout.                                              
+2025-09-18 00:17:33       Successfully logged out and redirected to login page.                                            
+2025-09-18 00:17:33       Browser closed.                                                                                  
+2025-09-18 00:19:28       Driver setup successfully                                                                        
+2025-09-18 00:19:28       Scenario: Validate Users  Imports                                                                
+2025-09-18 00:19:28       Launch browser successfully.                                           user            Browser Launching
+2025-09-18 00:19:29       Captured screenshot for passed step: Launch the browser                                          
+2025-09-18 00:19:31       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-18 00:19:31       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:19:36       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:19:36       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:19:37       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:19:45       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:19:53       Clicked: null                                                                                    
+2025-09-18 00:19:54       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:19:56       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:20:46       Failed to click: Browser button                                                                  
+2025-09-18 00:20:52       Clicked: Next button                                                                             
+2025-09-18 00:20:53       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:21:03       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:21:03       Clicked 5.0 Profile Icon.                                                                        
+2025-09-18 00:21:05       Clicked 5.0 Sign Out.                                                                            
+2025-09-18 00:21:05       Successfully redirected to login page after logout.                                              
+2025-09-18 00:21:05       Successfully logged out and redirected to login page.                                            
+2025-09-18 00:21:06       Browser closed.                                                                                  
+2025-09-18 00:22:59       Driver setup successfully                                                                        
+2025-09-18 00:22:59       Scenario: Validate Users  Imports                                                                
+2025-09-18 00:22:59       Launch browser successfully.                                           user            Browser Launching
+2025-09-18 00:22:59       Captured screenshot for passed step: Launch the browser                                          
+2025-09-18 00:23:02       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-18 00:23:02       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:23:10       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:23:11       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:23:12       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:23:22       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:23:30       Clicked: null                                                                                    
+2025-09-18 00:23:30       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:23:33       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:24:22       Failed to click: Browser button                                                                  
+2025-09-18 00:24:28       Clicked: Next button                                                                             
+2025-09-18 00:24:29       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:24:39       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:24:39       Clicked 5.0 Profile Icon.                                                                        
+2025-09-18 00:24:41       Clicked 5.0 Sign Out.                                                                            
+2025-09-18 00:24:41       Successfully redirected to login page after logout.                                              
+2025-09-18 00:24:41       Successfully logged out and redirected to login page.                                            
+2025-09-18 00:24:42       Browser closed.                                                                                  
+2025-09-18 00:25:26       Driver setup successfully                                                                        
+2025-09-18 00:25:26       Scenario: Validate Import User Should Display in Client Main Grid                                
+2025-09-18 00:25:26       Launch browser successfully.                                           user            Browser Launching
+2025-09-18 00:25:26       Captured screenshot for passed step: Launch the browser                                          
+2025-09-18 00:25:29       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-18 00:25:29       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:25:33       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:25:33       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:25:34       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:25:42       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:25:49       Clicked: null                                                                                    
+2025-09-18 00:25:49       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:25:55       Clicked: null                                                                                    
+2025-09-18 00:26:01       Clicked: Next button                                                                             
+2025-09-18 00:26:01       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:26:06       Clicked: Browser button                                                                          
+2025-09-18 00:26:13       Clicked: Next button                                                                             
+2025-09-18 00:26:13       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:27:32       Failed to click: Import Success                                                                  
+2025-09-18 00:28:38       Driver setup successfully                                                                        
+2025-09-18 00:28:39       Scenario: Validate Import User Should Display in Client Main Grid                                
+2025-09-18 00:28:39       Launch browser successfully.                                           user            Browser Launching
+2025-09-18 00:28:39       Captured screenshot for passed step: Launch the browser                                          
+2025-09-18 00:28:44       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-18 00:28:44       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:28:47       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:28:48       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:28:49       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:29:00       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:29:10       Clicked: null                                                                                    
+2025-09-18 00:29:10       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:29:15       Clicked: null                                                                                    
+2025-09-18 00:29:21       Clicked: Next button                                                                             
+2025-09-18 00:29:21       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:29:27       Clicked: Browser button                                                                          
+2025-09-18 00:29:33       Clicked: Next button                                                                             
+2025-09-18 00:29:33       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:30:53       Failed to click: Import Success                                                                  
+2025-09-18 00:31:02       Driver setup successfully                                                                        
+2025-09-18 00:31:03       Scenario: Validate Clients  Imports                                                              
+2025-09-18 00:31:03       Launch browser successfully.                                           user            Browser Launching
+2025-09-18 00:31:03       Captured screenshot for passed step: Launch the browser                                          
+2025-09-18 00:31:07       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-18 00:31:07       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:31:12       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:31:13       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:31:14       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:31:22       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:31:32       Clicked: null                                                                                    
+2025-09-18 00:31:32       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:31:38       Clicked: null                                                                                    
+2025-09-18 00:31:43       Clicked: Next button                                                                             
+2025-09-18 00:31:44       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:31:49       Clicked: Browser button                                                                          
+2025-09-18 00:31:55       Clicked: Next button                                                                             
+2025-09-18 00:31:56       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:32:06       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:32:06       Clicked 5.0 Profile Icon.                                                                        
+2025-09-18 00:32:12       Failed to click: Save and Exit                                                                   
+2025-09-18 00:32:12       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:32:16       Clicked 5.0 Sign Out.                                                                            
+2025-09-18 00:32:17       Successfully redirected to login page after logout.                                              
+2025-09-18 00:32:17       Successfully logged out and redirected to login page.                                            
+2025-09-18 00:32:17       Browser closed.                                                                                  
+2025-09-18 00:32:22       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:32:29       No logout element was clicked.                                                                   
+2025-09-18 00:32:29       Successfully logged out and redirected to login page.                                            
+2025-09-18 00:32:29       Browser closed.                                                                                  
+2025-09-18 00:33:28       Driver setup successfully                                                                        
+2025-09-18 00:33:29       Scenario: Validate Clients  Imports                                                              
+2025-09-18 00:33:29       Launch browser successfully.                                           user            Browser Launching
+2025-09-18 00:33:29       Captured screenshot for passed step: Launch the browser                                          
+2025-09-18 00:33:32       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-18 00:33:33       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:33:36       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:33:36       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:33:37       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:33:47       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:33:56       Clicked: null                                                                                    
+2025-09-18 00:33:56       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:34:02       Clicked: null                                                                                    
+2025-09-18 00:34:08       Clicked: Next button                                                                             
+2025-09-18 00:34:08       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:34:17       Clicked: Next button                                                                             
+2025-09-18 00:34:17       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:34:28       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:34:28       Clicked 5.0 Profile Icon.                                                                        
+2025-09-18 00:34:30       Clicked 5.0 Sign Out.                                                                            
+2025-09-18 00:34:30       Successfully redirected to login page after logout.                                              
+2025-09-18 00:34:30       Successfully logged out and redirected to login page.                                            
+2025-09-18 00:34:30       Browser closed.                                                                                  
+2025-09-18 00:36:46       Driver setup successfully                                                                        
+2025-09-18 00:36:46       Scenario: Validate Import User Should Display in Client Main Grid                                
+2025-09-18 00:36:46       Launch browser successfully.                                           user            Browser Launching
+2025-09-18 00:36:46       Captured screenshot for passed step: Launch the browser                                          
+2025-09-18 00:37:10       User need to enter the Application Url                                 user            URL entered successfully.
+2025-09-18 00:37:10       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:37:15       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:37:16       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:37:17       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:37:27       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:37:36       Clicked: null                                                                                    
+2025-09-18 00:37:36       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:37:42       Clicked: null                                                                                    
+2025-09-18 00:37:48       Clicked: Next button                                                                             
+2025-09-18 00:37:48       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:37:57       Clicked: Next button                                                                             
+2025-09-18 00:37:57       Captured screenshot for passed step: User need to enter the Application Url                           
+2025-09-18 00:39:16       Failed to click: Import Success                                                                  
+2025-09-18 02:58:34       Failed to click: Save and Exit                                                                   
+2025-09-18 11:21:20       Failed to capture screenshot for step: User need to enter the Application Url | Error: java.net.http.HttpTimeoutException: request timed out
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [51a3c9d1fb7c6b0bd022255034ba89d1, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.154, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63644}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63644/devtoo..., se:cdpVersion: 139.0.7258.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 51a3c9d1fb7c6b0bd022255034ba89d1                           
+2025-09-18 11:21:54       Failed to capture screenshot for step: User need to enter the Application Url | Error: invalid session id
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [51a3c9d1fb7c6b0bd022255034ba89d1, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.154, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63644}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63644/devtoo..., se:cdpVersion: 139.0.7258.154, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 51a3c9d1fb7c6b0bd022255034ba89d1                           
+2025-09-18 11:21:54       No logout element was clicked.                                                                   
+2025-09-18 11:21:54       Successfully logged out and redirected to login page.                                            
+2025-09-18 11:21:55       Browser closed.                                                                                  

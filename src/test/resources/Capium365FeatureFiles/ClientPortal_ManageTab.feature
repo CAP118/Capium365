@@ -8,6 +8,7 @@ Feature: Validate ManageTab
     And click on Login Button
     Then Navigate to capium365 module
 
+  
   Scenario: Verify Add New Client Page
     When Click on Add Client button
     Then Validate Add New Client Page Should Display

@@ -43,7 +43,7 @@ public class ClientPortal_Imports_Stepdefination {
  
 	@Then("Validate Duplicate Client Imported")
 	public void validate_duplicate_client_imported() {
-	    importsact.ValidateDuplicateImportuser();
+	    importsact.validateDuplicateImportUser();
 	}
 	@Then("Click on ClientNext button")
 	public void click_on_client_next_button() throws Throwable {
@@ -52,12 +52,13 @@ public class ClientPortal_Imports_Stepdefination {
 	@Then("Select Users CheckBox")
 	public void select_users_check_box() throws Throwable {
 		 importsact.ClickonuserscheckBox();
-		 importsact.ClickonImportNextbutton();
+		 //importsact.ClickonImportNextbutton();
 	}
  
 	@Then("Import Excel File From Folder for user")
 	public void import_excel_file_from_folder_for_user() throws Throwable {
 	   importsact.uploadExceluserWithRobot();
+	   importsact.ClickonImportNextbutton();
 	}
  
 	@Then("Validate userSuccess List")

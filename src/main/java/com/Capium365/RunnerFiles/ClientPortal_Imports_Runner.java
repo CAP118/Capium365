@@ -1,11 +1,12 @@
 package com.Capium365.RunnerFiles;
 
+import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 	    features = "src\\test\\resources\\Capium365FeatureFiles\\ClientPortal_Imports.feature",
 	    glue = "com.Capium365.StepDefination",
-	    tags = "",
+	    tags = "@Test",
 	    plugin = {
 	        "pretty",
 	        "html:target/cucumber-reports/CucumberReport.html",
@@ -14,6 +15,6 @@ import io.cucumber.testng.CucumberOptions;
 	    },
 	    monochrome = true
 	)
-public class ClientPortal_Imports_Runner {
+public class ClientPortal_Imports_Runner extends AbstractTestNGCucumberTests{
 
 }
