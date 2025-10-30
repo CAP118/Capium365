@@ -141,8 +141,8 @@ public class HelperClass {
 	public static boolean safeClick(WebElement element, String logMessage) {
 	    for (int i = 0; i < 3; i++) {
 	        try {
-	            waitForPageToLoad(driver);
-	            new WebDriverWait(driver, Duration.ofSeconds(10))
+	            waitForPageToLoad(driver.get());
+	            new WebDriverWait(driver.get(), Duration.ofSeconds(10))
 	                    .until(ExpectedConditions.elementToBeClickable(element));
 	            try {
 	                element.click();

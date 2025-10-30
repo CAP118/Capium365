@@ -23,117 +23,14 @@ public class Hooks {
 	private static ExtentReports extent = ExtentService.getInstance();
 	private static ExtentTest scenarioTest;
 
-<<<<<<< HEAD
 	@Before
-	public void beforeScenario(Scenario scenario) {
-		scenarioTest = extent.createTest("Scenario: " + scenario.getName());
-		System.out.println("Starting Scenario: " + scenario.getName());
-		Log.info("Scenario: " + scenario.getName());
-	}
-
-	@AfterStep
-	public void afterStep(Scenario scenario) {
-		WebDriver driver = HelperClass.getDriver();
-		String stepName = StepTracker.getCurrentStep();
-
-		if (stepName == null || stepName.isEmpty()) {
-			stepName = "Unnamed Step";
-		}
-
-		try {
-			String base64Screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BASE64);
-
-			if (scenario.isFailed()) {
-				scenario.attach(Base64.getDecoder().decode(base64Screenshot), "image/png", stepName);
-				scenarioTest.log(Status.FAIL, stepName,
-						MediaEntityBuilder.createScreenCaptureFromBase64String(base64Screenshot).build());
-				Log.info("Captured screenshot for failed step: " + stepName);
-			} else {
-				scenarioTest.log(Status.PASS, stepName);
-				Log.info("Captured screenshot for passed step: " + stepName);
-			}
-
-		} catch (Exception e) {
-			Log.error("Failed to capture screenshot for step: " + stepName + " | Error: " + e.getMessage());
-		}
-	}
-
-	@After
-	public void afterScenario(Scenario scenario) {
-		WebDriver driver = HelperClass.getDriver();
-
-		try {
-			if (scenario.isFailed()) {
-				scenarioTest.log(Status.FAIL, "Scenario Failed.");
-				Log.info("Scenario Failed.");
-			} else {
-				scenarioTest.log(Status.PASS, "Scenario Passed.");
-				Log.info("Scenario Passed.");
-			}
-
-			LoginActions loginPage = PageFactory.initElements(driver, LoginActions.class);
-			loginPage.Logout();
-			Log.info("Successfully logged out and redirected to login page.");
-		} catch (Exception e) {
-			Log.error("Logout failed: " + e.getMessage());
-			System.out.println("Logout failed: " + e.getMessage());
-=======
-	@BeforeAll
-	public static void setup() {
-		HelperClass.setUpDriver();
-		Log.info("Driver setup successfully");
-		System.out.println("Starting the Test Execution...");
-
-		
-		//logInfo("Driver setup successfully");
-	}
-
-//	@Before
-//	public void beforeScenario(Scenario scenario) {
-//		scenarioTest = extent.createTest("Scenario: " + scenario.getName());
-//		System.out.println("Starting Scenario: " + scenario.getName());
-//		Log.info("Scenario:" + scenario.getName());
-//	}
-	
-
-@Before
     public void beforeScenario(Scenario scenario) {
+        scenarioTest = extent.createTest("Scenario: " + scenario.getName());
         System.out.println("Starting Scenario: " + scenario.getName());
         Log.info("Scenario: " + scenario.getName());
     }
 
-
-//	@AfterStep
-//	public void afterStep(Scenario scenario) {
-//	    WebDriver driver = HelperClass.getDriver();
-//	    String stepName = StepTracker.getCurrentStep();
-//
-//	    if (stepName == null || stepName.isEmpty()) {
-//	        stepName = "Unnamed Step";
-//	    }
-//
-//	    try {
-//	        String base64Screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BASE64);
-//
-//	        if (scenario.isFailed()) {
-//	            scenario.attach(Base64.getDecoder().decode(base64Screenshot), "image/png", stepName);
-//	            scenarioTest.log(Status.FAIL, stepName,
-//	                    MediaEntityBuilder.createScreenCaptureFromBase64String(base64Screenshot).build());
-//	            Log.info("Captured screenshot for failed step: " + stepName);
-//	        } else {
-////	            scenarioTest.log(Status.PASS, stepName,
-////	                    MediaEntityBuilder.createScreenCaptureFromBase64String(base64Screenshot).build());
-//	        	scenarioTest.log(Status.PASS, stepName);
-//	            Log.info("Captured screenshot for passed step: " + stepName);
-//	        }
-//
-//	    } catch (Exception e) {
-//	        Log.error("Failed to capture screenshot for step: " + stepName + " | Error: " + e.getMessage());
-//	    }
-//	}
-
-
-@AfterStep
+    @AfterStep
     public void afterStep(Scenario scenario) {
         WebDriver driver = HelperClass.getDriver();
         String stepName = StepTracker.getCurrentStep();
@@ -147,10 +44,11 @@ public class Hooks {
 
             if (scenario.isFailed()) {
                 scenario.attach(Base64.getDecoder().decode(base64Screenshot), "image/png", stepName);
-                logToExtent(Status.FAIL, stepName, base64Screenshot);
+                scenarioTest.log(Status.FAIL, stepName,
+                        MediaEntityBuilder.createScreenCaptureFromBase64String(base64Screenshot).build());
                 Log.info("Captured screenshot for failed step: " + stepName);
             } else {
-                logToExtent(Status.PASS, stepName, base64Screenshot);
+                scenarioTest.log(Status.PASS, stepName);
                 Log.info("Captured screenshot for passed step: " + stepName);
             }
 
@@ -159,65 +57,34 @@ public class Hooks {
         }
     }
 
-
-//	@After
-//	public void afterScenario(Scenario scenario) {
-//		WebDriver driver = HelperClass.getDriver();
-//
-//		
-//		try {
-//			if (scenario.isFailed()) {
-//				scenarioTest.log(Status.FAIL, "Scenario Failed.");
-//				Log.info("Scenario Failed.");
-//			} else {
-//				scenarioTest.log(Status.PASS, "Scenario Passed.");
-//				Log.info("Scenario Passed.");
-//			}
-//			LoginActions loginPage = PageFactory.initElements(driver, LoginActions.class);
-//			loginPage.Logout();
-//		Log.info("Successfully logged out and redirected to login page.");
-//		} catch (Exception e) {
-//			Log.error("Logout failed: ");
-//			System.out.println("Logout failed: " + e.getMessage());
-//		}
-//	}
-
-
-@After
+    @After
     public void afterScenario(Scenario scenario) {
         WebDriver driver = HelperClass.getDriver();
+
         try {
+            if (scenario.isFailed()) {
+                scenarioTest.log(Status.FAIL, "Scenario Failed.");
+                Log.info("Scenario Failed.");
+            } else {
+                scenarioTest.log(Status.PASS, "Scenario Passed.");
+                Log.info("Scenario Passed.");
+            }
+
             LoginActions loginPage = PageFactory.initElements(driver, LoginActions.class);
             loginPage.Logout();
             Log.info("Successfully logged out and redirected to login page.");
         } catch (Exception e) {
             Log.error("Logout failed: " + e.getMessage());
+            System.out.println("Logout failed: " + e.getMessage());
+        }
+
+        try {
+            extent.flush();
+            System.out.println("Extent report flushed.");
+        } catch (Exception e) {
+            System.out.println("Error flushing extent report: " + e.getMessage());
         }
     }
-
-
-	@AfterAll
-	public static void tearDown() {
-		System.out.println("Ending Test Execution...");
-		try {
-			HelperClass.tearDown(); 
-			Log.info("Browser closed.");
-		} catch (Exception e) {
-			Log.error("Error during browser teardown: ");
->>>>>>> 7620e89be02c4856202f9657b5c1c6b42319738b
-		}
-
-		try {
-			extent.flush();
-			System.out.println("Extent report flushed.");
-		} catch (Exception e) {
-			System.out.println("Error flushing extent report: " + e.getMessage());
-		}
-	}
-
-	public static ExtentTest getScenarioTest() {
-		return scenarioTest;
-	}
 
 	public static void captureScreenshotBase64(WebDriver driver, ExtentTest scenarioTest, String message) {
 		try {
@@ -245,13 +112,9 @@ public class Hooks {
 		scenarioContext.clear();
 	}
 	
-
-
-    private static void logToExtent(Status status, String message, String base64Screenshot) {
-        ExtentTest stepLog = extent.createTest(message);
-        stepLog.log(status, message,
-                MediaEntityBuilder.createScreenCaptureFromBase64String(base64Screenshot).build());
-    }
+	 public static ExtentTest getScenarioTest() {
+	        return scenarioTest;
+	    }
 
     public static void DetailsInfo(String message) {
         ExtentTest infoLog = extent.createTest(message);
