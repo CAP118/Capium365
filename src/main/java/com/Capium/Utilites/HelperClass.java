@@ -20,71 +20,86 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import io.cucumber.java.Scenario;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 public class HelperClass {
 
-	private static HelperClass helperClass;
-	private static WebDriver driver; 
-	private static WebDriverWait wait;
-	public final static int TIMEOUT = 10;
+
 	private static String screenshotDirectory = "screenshots/";
 	
 	private HelperClass() { 
-		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--start-maximized");
-		driver = new ChromeDriver(options);
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TIMEOUT)); 
-		wait = new WebDriverWait(driver, Duration.ofSeconds(TIMEOUT));
+		
 		}
 	
-	public static WebDriver getDriver() {
-		if (driver == null) {
-			setUpDriver();
-		}
-		return driver;
+	private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
+    private static ThreadLocal<WebDriverWait> wait = new ThreadLocal<>();
+    private static final int TIMEOUT = 10;
+    
+    public static void setUpDriver(String browser) {
+        WebDriver drv = null;
+
+        switch (browser.toLowerCase()) {
+            case "chrome":
+                WebDriverManager.chromedriver().setup();
+                ChromeOptions options = new ChromeOptions();
+                options.addArguments("--start-maximized");
+                drv = new ChromeDriver(options);
+                break;
+
+            case "firefox":
+                WebDriverManager.firefoxdriver().setup();
+                drv = new FirefoxDriver();
+                drv.manage().window().maximize();
+                break;
+
+            case "edge":
+                WebDriverManager.edgedriver().setup();
+                drv = new EdgeDriver();
+                drv.manage().window().maximize();
+                break;
+
+            default:
+                throw new IllegalArgumentException("Browser not supported: " + browser);
+        }
+
+        drv.manage().timeouts().implicitlyWait(Duration.ofSeconds(TIMEOUT));
+        driver.set(drv);
+        wait.set(new WebDriverWait(drv, Duration.ofSeconds(TIMEOUT)));
+    }
+	
+    public static WebDriver getDriver() {
+		return driver.get();
 	}
 
 	public static WebDriverWait getWait() {
-		if (wait == null) {
-			setUpDriver();
-		}
-		return wait;
+		return wait.get();
 	}
 
-	public static void setUpDriver() { 
-		if (helperClass == null) {
-			java.util.logging.Logger.getLogger("org.openqa.selenium").setLevel(java.util.logging.Level.OFF);
-			System.setProperty("webdriver.chrome.silentOutput", "true"); helperClass = new HelperClass(); 
-			}
-		}
-
 	public static void tearDown() {
-		if (driver != null) {
+		WebDriver drv = driver.get();
+		if (drv != null) {
 			try {
-				driver.close();
-				driver.quit();
+				drv.quit();
 			} catch (Exception e) {
 				System.out.println("Error quitting driver: " + e.getMessage());
 			} finally {
-				driver = null;
-				wait = null;
-				helperClass = null;
+				driver.remove();
+				wait.remove();
 			}
 		}
 	}
-
 	public static void openPage(String url) {
-		if (driver == null) {
-			setUpDriver();
-		}
-		driver.get(url);
+
+		getDriver().get(url);
 	}
 
 	public static void waitUntilPageLoaded() {
@@ -242,7 +257,7 @@ public class HelperClass {
 	}
 	
 	public static boolean isElementPresentAndDisplayed(By locator) {
-	    List<WebElement> elements = driver.findElements(locator);
+	    List<WebElement> elements = driver.get().findElements(locator);
 	    return elements.size() > 0 && elements.get(0).isDisplayed();
 	}
 	
@@ -265,8 +280,8 @@ public class HelperClass {
 	}
 
 	public static void clickUsingJS(WebElement element) {
-		wait.until(ExpectedConditions.visibilityOf(element));
-		wait.until(ExpectedConditions.elementToBeClickable(element));
+		wait.get().until(ExpectedConditions.visibilityOf(element));
+		wait.get().until(ExpectedConditions.elementToBeClickable(element));
 		((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
 	}
 
@@ -692,7 +707,7 @@ public class HelperClass {
 	// Supplier Helper class
 	public static void searchByIdAndClickEdit(String supplierId) {
 		try {
-			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+			WebDriverWait wait = new WebDriverWait(driver.get(), Duration.ofSeconds(20));
 
 			// Clear and enter search term
 			WebElement searchInput = wait
@@ -707,11 +722,11 @@ public class HelperClass {
 			wait.until(ExpectedConditions.visibilityOfElementLocated(rowLocator));
 
 			// Re-fetch the row and find Edit button within it (avoid stale element)
-			WebElement row = driver.findElement(rowLocator);
+			WebElement row = driver.get().findElement(rowLocator);
 			WebElement editButton = row.findElement(By.xpath("//button[@title='Edit']"));
 
 			// Hover if needed (optional)
-			Actions actions = new Actions(driver);
+			Actions actions = new Actions(driver.get());
 			actions.moveToElement(row).perform();
 
 			wait.until(ExpectedConditions.elementToBeClickable(editButton));
@@ -803,8 +818,8 @@ public class HelperClass {
 	}
 
 	public static void hoverAndClickActionOnRow(int rowIndex, String actionType) {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-		Actions actions = new Actions(driver);
+		WebDriverWait wait = new WebDriverWait(driver.get(), Duration.ofSeconds(20));
+		Actions actions = new Actions(driver.get());
 		try {
 			wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector(".ngx-spinner-overlay")));
 		} catch (Exception e) {
@@ -989,7 +1004,7 @@ public class HelperClass {
 	}
 
 	public static void selectFirstSuggestedCustomer(String customerName) {
-		List<WebElement> suggestions = driver.findElements(By.cssSelector("div[role='option'], mat-option"));
+		List<WebElement> suggestions = driver.get().findElements(By.cssSelector("div[role='option'], mat-option"));
 
 		if (!suggestions.isEmpty()) {
 			suggestions.get(0).click();
@@ -1047,8 +1062,8 @@ public class HelperClass {
 	}
 	
 	public static void mouseHoverAndPerformActionn(String tableAriaLabel, int rowIndex, String actionType) {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-        Actions actions = new Actions(driver);
+        WebDriverWait wait = new WebDriverWait(driver.get(), Duration.ofSeconds(20));
+        Actions actions = new Actions(driver.get());
 
         try {
             wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector(".ngx-spinner-overlay")));
