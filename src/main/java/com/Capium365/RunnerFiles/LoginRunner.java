@@ -11,12 +11,26 @@ import io.cucumber.testng.CucumberOptions;
 
 // change here your Feature file path
 @CucumberOptions(features = "D:\\Core Modules\\Capium365\\src\\test\\resources\\Capium365FeatureFiles\\LoginFeature.feature",
+<<<<<<< HEAD
          glue = "com.Capium365.StepDefination",
          plugin = {
 		           "pretty", 
 		           "html:target/cucumber-reports/CucumberReport.html",
 		           "json:target/cucumber-reports/CucumberReport.json",
 		           "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" }
+=======
+       glue = "com.Capium365.StepDefination",
+       tags="@Login",
+        plugin = {
+		"pretty", 
+		"html:target/cucumber-reports/CucumberReport.html",
+		"json:target/cucumber-reports/CucumberReport.json",
+		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" }
+
+)
+
+public class LoginRunner extends AbstractTestNGCucumberTests {
+>>>>>>> 7620e89be02c4856202f9657b5c1c6b42319738b
 
              )
 

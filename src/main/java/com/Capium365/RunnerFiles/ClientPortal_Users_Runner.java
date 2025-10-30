@@ -4,9 +4,9 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-	    features = "src\\test\\resources\\Capium365FeatureFiles\\Capium365_BankTab.feature",
+	    features = "src\\test\\resources\\Capium365FeatureFiles\\ClientPortal_Users.feature",
 	    glue = "com.Capium365.StepDefination",
-	    tags = "@Rerun", 
+	    tags = "",
 	    plugin = {
 	        "pretty",
 	        "html:target/cucumber-reports/CucumberReport.html",
@@ -15,6 +15,6 @@ import io.cucumber.testng.CucumberOptions;
 	    },
 	    monochrome = true
 	)
-public class Capium365_BankTab_Runner extends AbstractTestNGCucumberTests{
+public class ClientPortal_Users_Runner extends AbstractTestNGCucumberTests{
 
 }

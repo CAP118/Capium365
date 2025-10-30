@@ -2,33 +2,52 @@ package com.Capium365.Actions;
 
 import java.io.IOException;
 import java.time.Duration;
-import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.Capium.Utilites.ConfigReader;
 import com.Capium.Utilites.HelperClass;
 import com.Capium.Utilites.Log;
 import com.Capium365.Locators.LoginLocators;
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.reporter.ExtentReporter;
 
 public class LoginActions {
 
 	LoginLocators loginLocators = null;
+	
+	@FindBy(xpath="//h6[normalize-space()='Accountant']/ancestor::div[@class='card']//a")
+	private static WebElement Accountant;
+	
+	@FindBy(xpath="//input[@id='txtusername']")
+	private static WebElement userName;
+	
+	@FindBy(xpath="//input[@id='txtpassword']")
+	private static WebElement password;
+	
+	@FindBy(xpath="//button[normalize-space(text())='Login']")
+	private static WebElement Login;
+	
+	@FindBy(xpath="//a[normalize-space()='Capium 365']")
+	private static WebElement Capium365;
+	
+	@FindBy(xpath="(//a[@aria-haspopup='menu'])[3]")
+	private WebElement FivePointProfileIcon;
+	
+	WebDriverWait wait=HelperClass.getWait();
+	WebDriver driver=HelperClass.getDriver();
 
 	public LoginActions() {
 		this.loginLocators = new LoginLocators();
 		PageFactory.initElements(HelperClass.getDriver(), loginLocators);
 	}
 	
-	WebDriverWait wait=HelperClass.getWait();
-	WebDriver driver=HelperClass.getDriver();
+	
 
 	public void EnterUsername(String username) {
 		loginLocators.emailaddressTF.clear();
@@ -47,103 +66,25 @@ public class LoginActions {
 		HelperClass.setValueUsingJS(OTP, "000000");
 	}
 	
-//	public void Clickonverifyaccount() {
-//		By verifyAccountBtn = By.xpath("//button[normalize-space()='Verify Account']");
-//		wait.until(ExpectedConditions.visibilityOfElementLocated(verifyAccountBtn));
-//		HelperClass.safeClick(verifyAccountBtn);
-//	}
-	
-	public void Clickonverifyaccount(String username) throws InterruptedException {
-		By verifyAccountBtn = By.xpath("//a[text()='Verify Account']");
-		By errorMessage = By.xpath(
-				"//div[@id='dvErrorMsg']//div[contains(text(),'Your Solo Login verify token has been expired')]");
-		By backBtn = By.xpath("//a[normalize-space()='Back']");
-		By emailTextField = By.id("Email");
-		By nextButton = By.id("Next");
- 
-		HelperClass.isElementPresent(verifyAccountBtn);
-		HelperClass.clickUsingJS(verifyAccountBtn);
- 
-		HelperClass.sleep1(3000);
- 
-		List<WebElement> errorElements = HelperClass.getDriver().findElements(errorMessage);
-		if (!errorElements.isEmpty() && errorElements.get(0).isDisplayed()) {
-			System.out.println("OTP token expired. Returning to login.");
- 
-			// Click Back
-			HelperClass.clickUsingJS(backBtn);
- 
-			// Check if email input is now visible
-			if (HelperClass.getDriver().findElements(emailTextField).size() > 0
-					&& HelperClass.getDriver().findElement(emailTextField).isDisplayed()) {
- 
-				// Enter username and click Next
-				loginLocators.emailaddressTF.clear();
-				loginLocators.emailaddressTF.sendKeys(username);
-				HelperClass.sleep1(2000);
-				loginLocators.nextbutton.click();
- 
-				System.out.println("Re-entered username and clicked Next.");
-			} else {
-				System.out.println("Email field not found after clicking Back.");
-			}
-		} else {
-			System.out.println("OTP verified successfully or no error message.");
-		}
+	public void Clickonverifyaccount() {
+		By verifyAccountBtn = By.xpath("//button[normalize-space()='Verify Account']");
+		wait.until(ExpectedConditions.visibilityOfElementLocated(verifyAccountBtn));
+		HelperClass.safeClick(verifyAccountBtn);
 	}
 
-//	public void Clickonverifyaccount(String username) throws InterruptedException {
-//	    By verifyAccountBtn = By.xpath("//button[normalize-space()='Verify Account']");
-//	    By errorMessage = By.xpath("//*[contains(text(),'Your Solo Login verify token has been expired')]");
-//	    By backBtn = By.xpath("//a[normalize-space()='Back']");
-//	    By emailTextField = By.id("Email");
-//	    By nextButton = By.id("Next");
-//	    By otpField = By.xpath("//input[@type='text']");
-//
-//	    int retryCount = 0;
-//	    boolean otpVerified = false;
-//
-//	    while (retryCount < 2 && !otpVerified) {
-//	        HelperClass.isElementPresent(verifyAccountBtn);
-//	        HelperClass.clickUsingJS(verifyAccountBtn);
-//	        HelperClass.sleep1(3000);
-//
-//	        List<WebElement> errorElements = HelperClass.getDriver().findElements(errorMessage);
-//	        if (!errorElements.isEmpty()) {
-//	            System.out.println("OTP token expired. Retrying login flow...");
-//
-//	            HelperClass.clickUsingJS(backBtn);
-//	            HelperClass.sleep1(2000);
-//
-//	            if (HelperClass.getDriver().findElements(emailTextField).size() > 0 &&
-//	                HelperClass.getDriver().findElement(emailTextField).isDisplayed()) {
-//
-//	                loginLocators.emailaddressTF.clear();
-//	                loginLocators.emailaddressTF.sendKeys(username);
-//	                HelperClass.sleep1(2000);
-//	                loginLocators.nextbutton.click();
-//	                HelperClass.sleep1(2000);
-//
-//	                HelperClass.isElementPresent(otpField);
-//	                HelperClass.setValueUsingJS(otpField, "000000");
-//	                retryCount++;
-//	            } else {
-//	                System.out.println("Email field not found after clicking Back.");
-//	                break;
-//	            }
-//	        } else {
-//	            System.out.println("OTP verified successfully or no error message.");
-//	            otpVerified = true;
-//	        }
-//	    }
-//
-//	    if (!otpVerified) {
-//	        System.out.println("Failed to verify OTP after retrying.");
-//	    }
-//	}
+public void ClickOnAccountant() {
+	HelperClass.safeClick(By.xpath("//h6[normalize-space()='Accountant']/ancestor::div[@class='card']//a"));
+}
+public void EnterUsernamePassword() {
+	String Username=ConfigReader.getProperty("ClientPortalUsername");
+	String Password=ConfigReader.getProperty("ClientPortalPassword");
+    HelperClass.safeSendKeys(By.xpath("//input[@id='txtusername']"), Username);
+    HelperClass.safeSendKeys(By.xpath("//input[@id='txtpassword']"), Password);
+}
 
-	
-
+public void ClickOnLogin() {
+	HelperClass.safeClick(By.xpath("//button[normalize-space(text())='Login']"));
+}
 
 	public boolean isHomePage() {
 		try {
@@ -162,46 +103,39 @@ public class LoginActions {
 	}
 
 	public void navigateToCapium365Module() {
-		WebDriverWait wait = new WebDriverWait(HelperClass.getDriver(), Duration.ofSeconds(2));
+	    WebDriverWait wait = new WebDriverWait(HelperClass.getDriver(), Duration.ofSeconds(5));
 
-		try {
-			if (isElementVisible(loginLocators.Capiuum365_Module, wait)) {
-				loginLocators.Capiuum365_Module.click();
-				System.out.println("Navigated to Capium365 module from Homepage.");
-				return;
-			}
+	    try {
+	        if (isElementVisible(loginLocators.Capiuum365_Module, wait)) {
+	            loginLocators.Capiuum365_Module.click();
+	            System.out.println("Navigated to Capium365 module from Homepage.");
+	            return;
+	        }
+	        
+	        if(isElementVisible(Capium365, wait)) {
+	        	HelperClass.safeClick(Capium365, null);
+	        	System.out.println("Navigated to Capium365 module from Old-Eco Homepage.");
+	        	return;
+	        }
+	        if (isElementVisible(loginLocators.C_icon_inside_modules, wait)) {
+	            loginLocators.C_icon_inside_modules.click();
+	            Thread.sleep(2000);
 
-			if (isElementVisible(loginLocators.CiconFivepoint_o, wait)) {
-				loginLocators.CiconFivepoint_o.click();
-				Thread.sleep(2000);
-				wait.until(ExpectedConditions.visibilityOf(loginLocators.InsideCicon5_0_365Module));
+	            wait.until(ExpectedConditions.visibilityOf(loginLocators.insideCicon3_0_365Module));
 
-				if (isElementVisible(loginLocators.InsideCicon5_0_365Module, wait)) {
-					loginLocators.InsideCicon5_0_365Module.click();
-					System.out.println("Navigated to Capium365 module from inside 5.0 module.");
-					return;
-				}
-			}
-
-			if (isElementVisible(loginLocators.C_icon_inside_modules, wait)) {
-				loginLocators.C_icon_inside_modules.click();
-				Thread.sleep(2000);
-				wait.until(ExpectedConditions.visibilityOf(loginLocators.insideCicon3_0_365Module));
-
-				if (isElementVisible(loginLocators.insideCicon3_0_365Module, wait)) {
-					loginLocators.insideCicon3_0_365Module.click();
-					System.out.println("Navigated to Capium365 module from inside 3.0 module.");
-					return;
-				}
-			}
-
-			System.out.println("Capium365 module could not be found in any known location.");
-
-		} catch (Exception e) {
-			System.out.println("Error while navigating to Capium365 module.");
-			Log.info("Error while navigating to Capium365 module.", "Anwar", "Redirection To Capium365 Module");
-		}
+	            if (isElementVisible(loginLocators.insideCicon3_0_365Module, wait)) {
+	                loginLocators.insideCicon3_0_365Module.click();
+	                System.out.println("Navigated to Capium365 module from inside 3.0 module.");
+	                return;
+	            }
+	        }
+	        System.out.println("Capium365 module could not be found in any known location.");
+	    } catch (Exception e) {
+	        System.out.println("Error while navigating to Capium365 module: " + e.getMessage());
+	        Log.info("Error while navigating to Capium365 module.", "Anwar", "Redirection To Capium365 Module");
+	    }
 	}
+
 
 	public void Logout() throws IOException {
 		WebDriver driver = HelperClass.getDriver();
@@ -211,9 +145,8 @@ public class LoginActions {
 		try {
 			boolean logoutClicked = false;
 
-			// CASE 1: 5.0 Module Logout
-			if (isElementVisible(loginLocators.FivePointProfileIcon, shortWait)) {
-				HelperClass.clickWithRetry(loginLocators.FivePointProfileIcon, driver, shortWait);
+			if (isElementVisible(FivePointProfileIcon, shortWait)) {
+				HelperClass.clickWithRetry(FivePointProfileIcon, driver, shortWait);
 				Log.info("Clicked 5.0 Profile Icon.");
 
 				if (isElementVisible(loginLocators.SignoutFivePointZero, shortWait)) {
@@ -222,7 +155,6 @@ public class LoginActions {
 					logoutClicked = true;
 				}
 			}
-			// CASE 2: Homepage → Logo → Logout
 			else if (isElementVisible(loginLocators.Logo_in_homepage, shortWait)) {
 				HelperClass.clickWithRetry(loginLocators.Logo_in_homepage, driver, shortWait);
 				Log.info("Clicked homepage logo.");
@@ -233,7 +165,6 @@ public class LoginActions {
 					logoutClicked = true;
 				}
 			}
-			// CASE 3: Direct Logout Element
 			else if (isElementVisible(loginLocators.Logout_element, shortWait)) {
 				HelperClass.clickWithRetry(loginLocators.Logout_element, driver, shortWait);
 				Log.info("Clicked direct logout element.");

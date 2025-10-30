@@ -27,6 +27,9 @@
       <class name="com.Capium365.RunnerFiles.Capium365_InvoicesTab_Customers_Runner"/>
       <class name="com.Capium365.RunnerFiles.Capium365_InvoicesTab_Estimates_Runner"/>
       <class name="com.Capium365.RunnerFiles.Capium365_InvoicesTab_Products_Runner"/>
+      <class name="com.Capium365.RunnerFiles.ClientPortal_Users_Runner"/>
+      <class name="com.Capium365.RunnerFiles.ClientPortal_ManageTab_Runner"/>
+      <class name="com.Capium365.RunnerFiles.ClientPortal_Imports_Runner"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

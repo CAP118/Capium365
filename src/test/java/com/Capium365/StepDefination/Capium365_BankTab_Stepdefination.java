@@ -3,6 +3,7 @@ package com.Capium365.StepDefination;
 import com.Capium.Utilites.StepTracker;
 import com.Capium365.Actions.Capium365_BankTab_Actions;
 
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 
@@ -12,14 +13,16 @@ public class Capium365_BankTab_Stepdefination {
 
 	@Given("Click on bank tab")
 	public void click_on_bank_tab() throws Exception {
-		bankpage.clickonbanktab();
+		bankpage.clickOnBankTab();
 		StepTracker.setCurrentStep("Click on bank tab");
+		
 	}
 
 	@Then("Verify bank tab")
 	public void verify_bank_tab() {
 		bankpage.Verifybanktab();
 		StepTracker.setCurrentStep("Verify bank tab");
+		
 	}
 
 	@Given("Click on expand icon")
@@ -63,6 +66,8 @@ public class Capium365_BankTab_Stepdefination {
 	public void click_on_date_dropdown() throws Exception {
 		bankpage.Clickondatedropdown();
 		StepTracker.setCurrentStep("Click on date dropdown");
+		Hooks.DetailsInfo("Click on date dropdown");
+		//Hooks.logInfo("Click on date dropdown");
 
 	}
 
@@ -71,30 +76,35 @@ public class Capium365_BankTab_Stepdefination {
 	public void Click_on_three_dot_menu() throws Exception {
 		bankpage.exportthreedotmenu();
 		StepTracker.setCurrentStep("Click on three dot menu");
+		Hooks.DetailsInfo("Click on three dot menu");
 	}
 
 	@Given("click on export to excel")
 	public void click_on_export_to_excel() {
 		bankpage.exporttoexcel();
 		StepTracker.setCurrentStep("click on export to excel");
+		Hooks.DetailsInfo("click on export to excel");
 	}
 
 	@Given("click on export to csv")
 	public void click_on_export_to_csv() throws Exception {
 		bankpage.exporttocsv();
 		StepTracker.setCurrentStep("click on export to csv");
+		Hooks.DetailsInfo("click on export to csv");
 	}
 
 	@Given("click on export to pdf")
 	public void click_on_export_to_pdf() {
 		bankpage.exporttopdf();
 		StepTracker.setCurrentStep("click on export to pdf");
+		Hooks.DetailsInfo("click on export to pdf");
 	}
 
 	@Then("verify headers")
 	public void verify_headers() throws Exception {
 		bankpage.verifyheaders();
 		StepTracker.setCurrentStep("verify headers");
+		Hooks.DetailsInfo("verify headers");
 	}
 
 	@Given("click on refresh account")

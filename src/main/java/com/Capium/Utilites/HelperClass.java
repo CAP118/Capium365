@@ -27,6 +27,11 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.service.ExtentService;
+
 import io.cucumber.java.Scenario;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -111,6 +116,57 @@ public class HelperClass {
 		}
 	}
 
+	public static void waitForPageToLoad(WebDriver driver) {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		try {
+			wait.until(webDriver -> (Boolean) js.executeScript("return (window.angular !== undefined) && "
+					+ "(angular.element(document).injector() !== undefined) && "
+					+ "(angular.element(document).injector().get('$http').pendingRequests.length === 0);"));
+		} catch (Exception e) {
+			//Log.warn("Angular wait skipped: " + e.getMessage());
+		}
+
+		wait.until(webDriver -> js.executeScript("return document.readyState").toString().equals("complete"));
+	}
+	
+//	public static void safeClick(WebElement element, String logMessage) {
+//		waitForPageToLoad(driver);
+//		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+//		wait.until(ExpectedConditions.visibilityOf(element));
+//		wait.until(ExpectedConditions.elementToBeClickable(element)).click();
+//		Log.info("Clicked: " + logMessage);
+//	}
+
+	public static boolean safeClick(WebElement element, String logMessage) {
+	    for (int i = 0; i < 3; i++) {
+	        try {
+	            waitForPageToLoad(driver);
+	            new WebDriverWait(driver, Duration.ofSeconds(10))
+	                    .until(ExpectedConditions.elementToBeClickable(element));
+	            try {
+	                element.click();
+	            } catch (ElementClickInterceptedException e) {
+	                ((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
+	            }
+	            Log.info("Clicked: " + logMessage);
+	            return true;
+	        } catch (Exception e) { sleep(1000); }
+	    }
+	    Log.info("Failed to click: " + logMessage);
+	    return false;
+	}
+
+	public static void safeType(WebElement element, String text, String logMessage) {
+		WebDriver driver = getDriver();
+		waitForPageToLoad(driver);
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
+		WebElement el = wait.until(ExpectedConditions.visibilityOf(element));
+		el.clear();
+		el.sendKeys(text);
+		Log.info("Typed in " + logMessage + ": " + text);
+	}
+
 	public static void waitForAngularLoad() {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		getWait().until(driver -> js.executeScript("return document.readyState").equals("complete"));
@@ -151,13 +207,13 @@ public class HelperClass {
 		int attempts = 0;
 		while (attempts < 5) {
 			try {
-				waitUntilClickable(element); // Ensure element is clickable
-				scrollToElement(element); // Scroll into view
-				clickUsingJS(element); // Try clicking
+				waitUntilClickable(element); 
+				scrollToElement(element); 
+				clickUsingJS(element); 
 				return true;
 			} catch (Exception e) {
 				attempts++;
-				sleep(1000); // Wait 1 second before retrying
+				sleep(1000); 
 			}
 		}
 		return false;
@@ -394,7 +450,6 @@ public class HelperClass {
 			}
 		}
 
-		// Fallback to JavaScript click
 		try {
 			JavascriptExecutor js = (JavascriptExecutor) driver;
 			js.executeScript("arguments[0].click();", element);
@@ -1140,7 +1195,5 @@ public class HelperClass {
         if (!success) {
             throw new RuntimeException("Failed to perform action '" + actionType + "' on row index " + rowIndex);
         }
-    }
-    
-	 
+    } 
 }

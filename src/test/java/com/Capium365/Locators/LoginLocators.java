@@ -66,8 +66,7 @@ public class LoginLocators {
 	@CacheLookup
 	public WebElement Logout_inside_logo;
 	
-	@FindBy(xpath="(//a[@aria-haspopup='menu'])[3]")
-	public WebElement FivePointProfileIcon;
+	
 	
 	@FindBy(xpath="//a[normalize-space()='Sign Out']")
 	public WebElement SignoutFivePointZero;
@@ -80,7 +79,7 @@ public class LoginLocators {
 	@FindBy(xpath="//h6[text()='365']//parent::div")
 	public WebElement InsideCicon5_0_365Module;
 	
-	@FindBy(xpath="//div[normalize-space()='Capium 365']")
+	@FindBy(xpath="//div[normalize-space()='Capium 365']/parent::div")
 	public WebElement insideCicon3_0_365Module;
 	
 	@FindBy(xpath="//img[@alt='Capium Logo']//parent::div//parent::a")

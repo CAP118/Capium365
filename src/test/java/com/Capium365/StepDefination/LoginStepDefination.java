@@ -18,7 +18,6 @@ public class LoginStepDefination {
 	public void launch_the_browser() {
 		StepTracker.setCurrentStep("Launch the browser");
 		Log.info("Launch browser successfully.", "Browser Launching");
-
 	}
 
 	@Given("User need to enter the Application Url")
@@ -42,7 +41,6 @@ public class LoginStepDefination {
 		loginpage.EnterUsername(username);
 		StepTracker.setCurrentStep("User Enter username and Password");
 		Log.info("Username and Password entered successfully.", "Credentials");
-
 	}
 
 	@Then("User Click on next button")
@@ -62,8 +60,7 @@ public class LoginStepDefination {
 
 	@Then("Click on verify account")
 	public void click_on_verify_account() throws InterruptedException {
-		String username = ConfigReader.getProperty("username");
-		loginpage.Clickonverifyaccount(username);
+		loginpage.Clickonverifyaccount();
 		Log.info("Login button clicked sucessfully", "Verifying");
 		StepTracker.setCurrentStep("Click on verify account");
 	}
@@ -76,4 +73,22 @@ public class LoginStepDefination {
 		Hooks.captureScreenshotBase64(HelperClass.getDriver(), Hooks.getScenarioTest(), "Redirect to365 client");
 
 	}
+	
+	@Given("Click on Accountant login")
+	public void click_on_accountant_login() {
+	    loginpage.ClickOnAccountant();
+	}
+	@When("Enter username and password")
+	public void enter_username_and_password() {
+	    loginpage.EnterUsernamePassword();
+	}
+	@When("click on Login Button")
+	public void click_on_login_button() {
+	    loginpage.ClickOnLogin();
+	}
+	@Then("Navigate to capium365 module")
+	public void navigate_to_capium365_module() {
+	    loginpage.navigateToCapium365Module();
+	}
+
 }

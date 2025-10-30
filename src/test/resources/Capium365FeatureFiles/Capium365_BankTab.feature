@@ -10,7 +10,7 @@ Feature: Validate bank tab
     And Click on verify account
     And Redirect to365 client
 
-  @BankTab
+  @BankTab @Rerun
   Scenario: Validate bank tab
     Given Click on bank tab
     Then Verify bank tab
@@ -21,7 +21,7 @@ Feature: Validate bank tab
     And Click on expand icon
     Then Validate bank accounts
 
-  @BankTab
+  @BankTab 
   Scenario: Validate add new account
     Given Click on bank tab
     And Click on add new account
